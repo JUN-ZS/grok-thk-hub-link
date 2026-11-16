@@ -1,0 +1,332 @@
+{
+  "schema": "LINK_GRAPH_V1",
+  "write_id": "01764",
+  "nodes_n": 31,
+  "links_n": 28,
+  "pipelines": {
+    "PIPE_PIPI": {
+      "zh": "皮皮畫主鏈",
+      "steps": [
+        "PIPI_ACTIVE_DENSIFY",
+        "PIPI_SRC_PASS"
+      ],
+      "call": "ACTIVE ALL + 通行審查"
+    },
+    "PIPE_GEGE_FACE": {
+      "zh": "格格臉 dens",
+      "steps": [
+        "GEGE2_SOFT",
+        "GEGE3_ROI_PASTE",
+        "GEGE_NO_EXTPLUS3"
+      ],
+      "call": "格格2/3/NO.EXT+3"
+    },
+    "PIPE_PATH1E_ECC": {
+      "zh": "PATH1E ECC 對位硬貼",
+      "steps": [
+        "A8B_TRUE",
+        "PATH1E_PLATE_ECC",
+        "ECC_ALIGN",
+        "ECC_PIN_SET"
+      ],
+      "call": "PATH1E + ECC"
+    },
+    "PIPE_THK_HERO": {
+      "zh": "跳環扣 HERO",
+      "steps": [
+        "ECC_PIN_SET",
+        "THK_HOLD",
+        "THK_HALF2X_LOCK_FLF",
+        "R2V_LOCK_FLF"
+      ],
+      "call": "HALF2X → R2V LOCK FLF",
+      "forbid": [
+        "I2V_SINGLE as full film",
+        "OPTICAL_FLOW as dens main"
+      ]
+    },
+    "PIPE_MEMORY": {
+      "zh": "記憶掛回",
+      "steps": [
+        "MEMORY_BOOT",
+        "TEACH_NEXT_BRANCH",
+        "SKILL_ATLAS",
+        "REF_ATLAS_SHA"
+      ],
+      "call": "RESTORE MEMORY · SKILL_ATLAS"
+    }
+  },
+  "links": [
+    {
+      "id": "L000",
+      "from": "SHQ_DEFAULT_CHAIN",
+      "to": "PIPI_ACTIVE_DENSIFY",
+      "kind": "compose",
+      "note": "ACTIVE ALL 默認含皮皮 dens",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L001",
+      "from": "SHQ_DEFAULT_CHAIN",
+      "to": "PIPI_SRC_PASS",
+      "kind": "gates",
+      "note": "通行審查閘",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L002",
+      "from": "PIPI_ACTIVE_DENSIFY",
+      "to": "PIPI_SRC_PASS",
+      "kind": "gates",
+      "note": "出圖後必審",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L003",
+      "from": "GEGE2_SOFT",
+      "to": "GEGE3_ROI_PASTE",
+      "kind": "feeds",
+      "note": "soft 全幅 → ROI 羽化貼",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L004",
+      "from": "GEGE3_ROI_PASTE",
+      "to": "GEGE_NO_2PLUS3",
+      "kind": "compose",
+      "note": "身I2I+臉格格3",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L005",
+      "from": "GEGE2_SOFT",
+      "to": "GEGE_NO_EXTPLUS3",
+      "kind": "compose",
+      "note": "EXT身色鎖+臉",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L006",
+      "from": "GEGE2_BODY_WEAK",
+      "to": "PIPI_SRC_PASS",
+      "kind": "gates",
+      "note": "身弱後仍過審",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L007",
+      "from": "face-densify-soft-roi",
+      "to": "GEGE2_SOFT",
+      "kind": "implements",
+      "note": "server skill → 技法",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L008",
+      "from": "face-densify-soft-roi",
+      "to": "GEGE3_ROI_PASTE",
+      "kind": "implements",
+      "note": "server skill → 技法",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L009",
+      "from": "PATH1E_PLATE_ECC",
+      "to": "ECC_ALIGN",
+      "kind": "depends_on",
+      "note": "plate 後 ECC 對位硬貼",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L010",
+      "from": "ECC_ALIGN",
+      "to": "PATH1E_PLATE_ECC",
+      "kind": "feeds",
+      "note": "align peep 服務 PATH1E",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L011",
+      "from": "A8B_TRUE",
+      "to": "PATH1E_PLATE_ECC",
+      "kind": "feeds",
+      "note": "A8B 身份源 → plate/ECC",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L012",
+      "from": "PATH1E_PLATE_ECC",
+      "to": "ECC_PIN_SET",
+      "kind": "feeds",
+      "note": "ECC dens plate pins for THK",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L013",
+      "from": "AB_IC_PASTE",
+      "to": "THK_HALF2X_LOCK_FLF",
+      "kind": "feeds",
+      "note": "升臉 pin 可進 FLF",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L014",
+      "from": "FACE_LINE_LOCK_WNOISE",
+      "to": "AB_IC_PASTE",
+      "kind": "feeds",
+      "note": "plate 去塑皮後 paste",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L015",
+      "from": "STITCH_HOMOGRAPHY",
+      "to": "ECC_ALIGN",
+      "kind": "alt",
+      "note": "幾何對位族 · stitch vs ECC",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L016",
+      "from": "OPTICAL_FLOW_MINTERPOLATE",
+      "to": "THK_HOLD",
+      "kind": "alt",
+      "note": "K07 備選 · HOLD 後輔助",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L017",
+      "from": "OPTICAL_FLOW_MINTERPOLATE",
+      "to": "THK_HALF2X_LOCK_FLF",
+      "kind": "kill_default",
+      "note": "禁當 dens 升質主鏈",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L018",
+      "from": "THK_HOLD",
+      "to": "THK_HALF2X_LOCK_FLF",
+      "kind": "feeds",
+      "note": "先 HOLD 基線再 FLF hero",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L019",
+      "from": "THK_HALF2X_LOCK_FLF",
+      "to": "R2V_LOCK_FLF",
+      "kind": "depends_on",
+      "note": "HERO 引擎 = R2V",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L020",
+      "from": "R2V_LOCK_FLF",
+      "to": "I2V_SINGLE",
+      "kind": "kill_default",
+      "note": "K02 禁 I2V 冒全片 FLF",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L021",
+      "from": "ECC_PIN_SET",
+      "to": "THK_HALF2X_LOCK_FLF",
+      "kind": "feeds",
+      "note": "SUB6 dens pins",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L022",
+      "from": "tiao-huan-kou",
+      "to": "THK_HALF2X_LOCK_FLF",
+      "kind": "implements",
+      "note": "skill → 憲主鏈",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L023",
+      "from": "MEMORY_BOOT",
+      "to": "TEACH_NEXT_BRANCH",
+      "kind": "feeds",
+      "note": "父 BOOT → 繼承協議",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L024",
+      "from": "TEACH_NEXT_BRANCH",
+      "to": "SKILL_ATLAS",
+      "kind": "feeds",
+      "note": "繼承後掛全技能表",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L025",
+      "from": "SKILL_ATLAS",
+      "to": "REF_ATLAS_SHA",
+      "kind": "depends_on",
+      "note": "技能↔縮圖 SHA",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L026",
+      "from": "pipi-src-pass-review",
+      "to": "PIPI_SRC_PASS",
+      "kind": "implements",
+      "note": "skill → 閘",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L027",
+      "from": "shengqing-huiwei",
+      "to": "SHQ_DEFAULT_CHAIN",
+      "kind": "implements",
+      "note": "skill → 默認鏈",
+      "from_exists": true,
+      "to_exists": true
+    }
+  ],
+  "file_links": {
+    "skill_atlas": "SETS/BRANCH_GROK_AGENT_THK_20261116/MEMORY/SKILL_ATLAS.json",
+    "link_graph": "SETS/BRANCH_GROK_AGENT_THK_20261116/MEMORY/LINK_GRAPH.json",
+    "ref_atlas": "SETS/BRANCH_GROK_AGENT_THK_20261116/HUB_THUMBS_SHA/REF_ATLAS.json",
+    "boot_branch": "SETS/BRANCH_GROK_AGENT_THK_20261116/BOOT_BRANCH.json",
+    "memory_session": "SETS/BRANCH_GROK_AGENT_THK_20261116/MEMORY/MEMORY_SESSION.json",
+    "readme_branch": "SETS/BRANCH_GROK_AGENT_THK_20261116/README.md",
+    "readme_drive": "README_MEMORY_DRIVE.md",
+    "teach_next": "SHQ_TEACH_NEXT_GROK_INHERIT.md",
+    "thk_canon": "TIAO_HUAN_KOU/TIAO_HUAN_KOU_CANONICAL.md",
+    "parent_boot": "SETS/SHQ_MEMORY_RESTORE/BOOT.json",
+    "intel": "INTEL/registry.json",
+    "restore_py": "SETS/BRANCH_GROK_AGENT_THK_20261116/restore_branch.py",
+    "hub": "SETS/BRANCH_GROK_AGENT_THK_20261116/HUB",
+    "hub_link": "SETS/BRANCH_GROK_AGENT_THK_20261116/HUB/LINK/LINK_GRAPH.json",
+    "hub_link_md": "SETS/BRANCH_GROK_AGENT_THK_20261116/HUB/LINK/LINK.md",
+    "hub_manifest": "SETS/BRANCH_GROK_AGENT_THK_20261116/HUB/HUB_MANIFEST.json"
+  },
+  "sha16_of_hub_link": "34d01a972cf13761"
+}

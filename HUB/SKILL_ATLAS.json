@@ -1,0 +1,399 @@
+{
+  "schema": "SKILL_ATLAS_V1",
+  "write_id": "01764",
+  "asof": "2026-11-16T10:00+08",
+  "honest": "01762 只推了 THK/R2V/TEACH 一截；01763 才全量技能表+SHA 縮圖索引",
+  "server_skills": [
+    {
+      "id": "face-densify-soft-roi",
+      "zh": "格格2/3/NO.2+3/NO.EXT+3",
+      "kind": "server_skill",
+      "path": "server-skills/face-densify-soft-roi/SKILL.md",
+      "use": "fei still-frames dens · soft ROI · 禁I2I變衣",
+      "chain_tags": [
+        "格格2",
+        "格格3",
+        "GEGE",
+        "dens"
+      ],
+      "ref_tags": [
+        "GEGE_HYBRID",
+        "AB_FACE_PEEP"
+      ],
+      "ref_sha16": [
+        "8a0bb080533226ee",
+        "608d71123ae3e230"
+      ]
+    },
+    {
+      "id": "pipi-src-pass-review",
+      "zh": "皮皮畫通行審查",
+      "kind": "server_skill",
+      "path": "server-skills/pipi-src-pass-review/SKILL.md",
+      "cli": "SETS/PIPI_SRC_PASS_REVIEW/pipi_src_pass_review.py",
+      "use": "densify後對原審查 · 色相/PIXEL/臉骨閘 · ACTIVE ALL",
+      "chain_tags": [
+        "皮皮畫",
+        "通行審查",
+        "ACTIVE ALL",
+        "追光",
+        "反射生"
+      ],
+      "ref_tags": [
+        "PIPI_BODY_WEAK"
+      ],
+      "ref_sha16": [
+        "271b63f69d1476af"
+      ]
+    },
+    {
+      "id": "shengqing-huiwei",
+      "zh": "升清回位 SHQ / SC-H",
+      "kind": "server_skill",
+      "path": "server-skills/shengqing-huiwei/SKILL.md",
+      "use": "高清主體硬貼回風景 · MULTI_RETURN · E40 REPLAY",
+      "chain_tags": [
+        "升清回位",
+        "SHQ",
+        "合眾",
+        "追光"
+      ],
+      "ref_tags": [],
+      "ref_sha16": []
+    },
+    {
+      "id": "tiao-huan-kou",
+      "zh": "跳環扣 THK",
+      "kind": "server_skill",
+      "path": "server-skills/tiao-huan-kou/SKILL.md",
+      "canon": "TIAO_HUAN_KOU/TIAO_HUAN_KOU_CANONICAL.md",
+      "use": "dens pin 慢動 · HALF2X · LOCK FLF · HOLD · K01-K14",
+      "chain_tags": [
+        "跳環扣",
+        "HALF2X",
+        "LOCK FLF",
+        "R2V"
+      ],
+      "ref_tags": [
+        "THK_HALF2X",
+        "THK_ABIC_FLF",
+        "THK_GRID05",
+        "ELEV_FACE_HALF2X"
+      ],
+      "ref_sha16": [
+        "cdf18b6c762e5c88",
+        "8bf6132847cbcd80",
+        "1c0a56be6c8114b3",
+        "be440b99d388dd4d"
+      ]
+    },
+    {
+      "id": "jun-zs-ecosystem",
+      "zh": "JUN-ZS 場憲／器官",
+      "kind": "server_skill",
+      "path": "server-skills/jun-zs-ecosystem/SKILL.md",
+      "use": "場憲 organs SEEDFIELD · 非 still 主產",
+      "chain_tags": [
+        "場憲"
+      ],
+      "ref_tags": [],
+      "ref_sha16": []
+    },
+    {
+      "id": "field-tray",
+      "zh": "Field Tray 活流庫存",
+      "kind": "server_skill",
+      "path": "server-skills/field-tray/SKILL.md",
+      "use": "QQQ inventory planner · 非 still 主產",
+      "chain_tags": [
+        "FieldTray"
+      ],
+      "ref_tags": [],
+      "ref_sha16": []
+    }
+  ],
+  "techniques": [
+    {
+      "id": "PIPI_ACTIVE_DENSIFY",
+      "zh": "皮皮畫 ACTIVE densify",
+      "docs": [
+        "tmp/fei_A_0-140/PROMPT_PIPI_ACTIVE.txt",
+        "tmp/fei_A_0-140/RECEIPT_PIPI_ACTIVE_0-30.txt"
+      ],
+      "hub": "tmp/fei_A_0-140/hub_pipi_ACTIVE",
+      "ref_tags": [
+        "PIPI_BODY_WEAK"
+      ],
+      "ref_sha16": [
+        "271b63f69d1476af"
+      ]
+    },
+    {
+      "id": "GEGE2_SOFT",
+      "zh": "格格2 soft 全幅小升清",
+      "docs": [
+        "tmp/fei_A_0-140/METHOD_FACE_DENSIFY_SOFT_ROI_V1.md",
+        "tmp/fei_A_0-140/GEGE_CANONICAL.md"
+      ],
+      "ref_tags": [
+        "GEGE_HYBRID"
+      ],
+      "ref_sha16": [
+        "8a0bb080533226ee"
+      ]
+    },
+    {
+      "id": "GEGE3_ROI_PASTE",
+      "zh": "格格3 soft→ROI羽化貼SRC",
+      "docs": [
+        "tmp/fei_A_0-140/METHOD_FACE_DENSIFY_SOFT_ROI_V1.md",
+        "tmp/fei_A_0-140/RECEIPT_SOFT_ROI_PASTE_19-33.txt"
+      ],
+      "ref_tags": [
+        "GEGE_HYBRID"
+      ],
+      "ref_sha16": [
+        "8a0bb080533226ee"
+      ]
+    },
+    {
+      "id": "GEGE_NO_2PLUS3",
+      "zh": "格格NO.2+3 身I2I+臉格格3",
+      "docs": [
+        "tmp/fei_A_0-140/RECEIPT_GEGE_NO_2PLUS3_01762.txt"
+      ],
+      "ref_tags": [],
+      "ref_sha16": []
+    },
+    {
+      "id": "GEGE_NO_EXTPLUS3",
+      "zh": "格格NO.EXT+3 身色鎖+臉",
+      "docs": [
+        "tmp/fei_A_0-140/METHOD_EXT_Y_UNSHARP.md",
+        "tmp/fei_A_0-140/METHOD_GEGE2_BODY_WEAK_COLORLOCK.md"
+      ],
+      "ref_tags": [],
+      "ref_sha16": []
+    },
+    {
+      "id": "GEGE2_BODY_WEAK",
+      "zh": "格格2 身弱",
+      "docs": [
+        "tmp/fei_A_0-140/METHOD_GEGE2_BODY_WEAK.md"
+      ],
+      "ref_tags": [
+        "PIPI_BODY_WEAK"
+      ],
+      "ref_sha16": [
+        "271b63f69d1476af"
+      ]
+    },
+    {
+      "id": "PATH1E_PLATE_ECC",
+      "zh": "PATH1E plate→ECC 硬貼升臉",
+      "docs": [
+        "PIPE_E357_ECC_HARDPASTE.md",
+        "PIPE_A_WNK_MASK_CLIP_PATH1E.md"
+      ],
+      "ref_tags": [
+        "PATH1E",
+        "PATH1E_B",
+        "ECC_PEEP",
+        "ECC_HARDPASTE"
+      ],
+      "ref_sha16": [
+        "f3031ed7832b82da",
+        "24eee72b24eae1dd",
+        "c299ca8eb0a6e0f3",
+        "da7e93a3d80e2fa7"
+      ]
+    },
+    {
+      "id": "A8B_TRUE",
+      "zh": "A8B 真姿／骨相閘",
+      "docs": [
+        "tmp/fei_A_0-140/PROMPT_ST2_A8B.txt"
+      ],
+      "sets": "SETS/A8B_TRUE",
+      "ref_tags": [
+        "A8B_FIRST",
+        "TRUE_A8B"
+      ],
+      "ref_sha16": [
+        "47a66d30971daca5",
+        "5b9e8b647f72d8e4"
+      ]
+    },
+    {
+      "id": "AB_IC_PASTE",
+      "zh": "AB+IC dens paste 升臉",
+      "docs": [
+        "TIAO_HUAN_KOU/TIAO_HUAN_KOU_CANONICAL.md"
+      ],
+      "ref_tags": [
+        "ABIC_FACE_PEEP",
+        "AB_FACE_PEEP"
+      ],
+      "ref_sha16": [
+        "6f71a2e3d14db887",
+        "608d71123ae3e230"
+      ]
+    },
+    {
+      "id": "FACE_LINE_LOCK_WNOISE",
+      "zh": "臉線條鎖／白噪殺",
+      "docs": [
+        "tmp/fei_A_0-140/METHOD_FACE_LINE_LOCK_WNOISE.md",
+        "tmp/fei_A_0-140/RECEIPT_FACE_LINE_WNOISE_01764.txt"
+      ],
+      "ref_tags": [],
+      "ref_sha16": []
+    },
+    {
+      "id": "ECC_ALIGN",
+      "zh": "ECC 對位（align peep）",
+      "docs": [
+        "PIPE_E357_ECC_HARDPASTE.md"
+      ],
+      "ref_tags": [
+        "ALIGN_WNK_PATH1E",
+        "ALIGN_SQUARE_WNK",
+        "ALIGN_DBSS",
+        "ECC_DONOR"
+      ],
+      "ref_sha16": [
+        "6f386063192f6367",
+        "434f364ecf333d45",
+        "15618a8db7742057",
+        "c28d91b4d888704b"
+      ]
+    },
+    {
+      "id": "STITCH_HOMOGRAPHY",
+      "zh": "Homography／mesh／similarity 對位拼",
+      "docs": [
+        "tmp/cinema_v10/FIG6_peep_stitch_homography.png"
+      ],
+      "ref_tags": [
+        "STITCH_HOMOGRAPHY",
+        "STITCH_MESH",
+        "STITCH_SIMILARITY",
+        "FILMSTRIP"
+      ],
+      "ref_sha16": [
+        "fe56452e561774a3",
+        "4608cbfd3cb6a734",
+        "4608cbfd3cb6a734",
+        "e98aa8a92e9dad71"
+      ]
+    },
+    {
+      "id": "OPTICAL_FLOW_MINTERPOLATE",
+      "zh": "光流 minterpolate（THK K07 備選非主）",
+      "docs": [
+        "TIAO_HUAN_KOU/TIAO_HUAN_KOU_CANONICAL.md"
+      ],
+      "status": "ALT_K07",
+      "note": "可 HOLD 後輔助 · 非 dens 升質主鏈",
+      "ref_tags": [],
+      "ref_sha16": []
+    },
+    {
+      "id": "THK_HALF2X_LOCK_FLF",
+      "zh": "跳環扣 HALF2X LOCK FLF",
+      "docs": [
+        "TIAO_HUAN_KOU/TIAO_HUAN_KOU_CANONICAL.md"
+      ],
+      "gold": "4cfde85e-d3aa-4187-b21e-a64f40f25835",
+      "ref_tags": [
+        "THK_HALF2X",
+        "ECC_PIN_A0",
+        "ECC_PIN_A140"
+      ],
+      "ref_sha16": [
+        "cdf18b6c762e5c88",
+        "23223697a39f4c28",
+        "1c63e4a5327dd2c8"
+      ]
+    },
+    {
+      "id": "THK_HOLD",
+      "zh": "跳環扣 HOLD 真姿軸",
+      "docs": [
+        "TIAO_HUAN_KOU/TIAO_HUAN_KOU_CANONICAL.md"
+      ],
+      "ref_tags": [
+        "THK_HALF2X"
+      ],
+      "ref_sha16": [
+        "cdf18b6c762e5c88"
+      ]
+    },
+    {
+      "id": "R2V_LOCK_FLF",
+      "zh": "reference_to_video 頭尾+kf",
+      "docs": [
+        "SETS/BRANCH_GROK_AGENT_THK_20261116/MEMORY/MEMORY_SESSION.json"
+      ],
+      "status": "agent_BROKEN_ui_OK",
+      "ref_tags": [
+        "STILL_I2V_R2V"
+      ],
+      "ref_sha16": [
+        "3778fbd9d5fea7d4"
+      ]
+    },
+    {
+      "id": "I2V_SINGLE",
+      "zh": "image_to_video 單起點",
+      "status": "K02_killed_as_full_film",
+      "ref_tags": [
+        "STILL_I2V_R2V"
+      ],
+      "ref_sha16": [
+        "3778fbd9d5fea7d4"
+      ]
+    },
+    {
+      "id": "DA_DA_QING",
+      "zh": "大大清技法",
+      "docs": [
+        "TECHNIQUE_DA_DA_QING.md"
+      ],
+      "ref_tags": [],
+      "ref_sha16": []
+    },
+    {
+      "id": "MEMORY_BOOT",
+      "zh": "記憶恢復總腦",
+      "docs": [
+        "SETS/SHQ_MEMORY_RESTORE/README.md"
+      ],
+      "ref_tags": [],
+      "ref_sha16": []
+    },
+    {
+      "id": "TEACH_NEXT_BRANCH",
+      "zh": "自我繼承+BRANCH",
+      "docs": [
+        "SHQ_TEACH_NEXT_GROK_INHERIT.md"
+      ],
+      "ref_tags": [],
+      "ref_sha16": []
+    },
+    {
+      "id": "SHQ_DEFAULT_CHAIN",
+      "zh": "ACTIVE ALL + 追光 + 通行審查 + 反射生",
+      "docs": [
+        "SETS/SHQ_MEMORY_RESTORE/BOOT.json"
+      ],
+      "ref_tags": [],
+      "ref_sha16": []
+    }
+  ],
+  "default_shq_chain": "ACTIVE ALL + 追光 + 通行審查 + 反射生",
+  "default_thk_hero": "HALF2X soft pins → R2V LOCK FLF",
+  "ref_atlas": "HUB_THUMBS_SHA/REF_ATLAS.json",
+  "link_graph": "MEMORY/LINK_GRAPH.json",
+  "link_md": "MEMORY/LINK.md"
+}

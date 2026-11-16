@@ -1,0 +1,227 @@
+{
+  "schema": "HUB_THUMBS_SHA_REF_ATLAS_V1",
+  "write_id": "01763",
+  "asof": "2026-11-16T10:00+08",
+  "policy": "只存路徑+SHA · 不複製大圖進父 HUB · 子 BRANCH 索引",
+  "count_ok": 27,
+  "count_missing": 0,
+  "missing": [],
+  "refs": [
+    {
+      "tag": "PIPI_BODY_WEAK",
+      "note": "皮皮/身弱 peep 例",
+      "path": "COMPARE_BODY_WEAK_A_0003.jpg",
+      "bytes": 234990,
+      "sha16": "271b63f69d1476af",
+      "sha256": "271b63f69d1476af0049a941bc28b9a638769d29cea6439ffdbc1f327086ab6e"
+    },
+    {
+      "tag": "PATH1E",
+      "note": "PATH1E trial compare",
+      "path": "COMPARE_PATH1E_TRIAL.jpg",
+      "bytes": 694413,
+      "sha16": "f3031ed7832b82da",
+      "sha256": "f3031ed7832b82da942a25da25a9d04ddc16c9fa9e2f8b421b7c5a26b677d274"
+    },
+    {
+      "tag": "PATH1E_B",
+      "note": "PATH1E-B compare",
+      "path": "COMPARE_PATH1E_B.jpg",
+      "bytes": 698240,
+      "sha16": "24eee72b24eae1dd",
+      "sha256": "24eee72b24eae1dd4cc68ae6d434ac8ffb1f226e248523e27f2d8ba4e60f1984"
+    },
+    {
+      "tag": "A8B_FIRST",
+      "note": "A8B first trial",
+      "path": "COMPARE_A8B_FIRST_TRIAL.jpg",
+      "bytes": 630302,
+      "sha16": "47a66d30971daca5",
+      "sha256": "47a66d30971daca5af9d9ebe676efdbd1595f05b0bb29ea5874c15630e2ec08d"
+    },
+    {
+      "tag": "TRUE_A8B",
+      "note": "TRUE A8B first",
+      "path": "COMPARE_TRUE_A8B_FIRST.jpg",
+      "bytes": 511707,
+      "sha16": "5b9e8b647f72d8e4",
+      "sha256": "5b9e8b647f72d8e4142b7d2a6534b33b5d2c47c3c28db9cdf7b97f353f5fd8b6"
+    },
+    {
+      "tag": "ECC_PEEP",
+      "note": "ECC peep board",
+      "path": "tmp/a8b_ratio_fixed/COMPARE_ecc_peeps.jpg",
+      "bytes": 209097,
+      "sha16": "c299ca8eb0a6e0f3",
+      "sha256": "c299ca8eb0a6e0f37b15c2284a3afc0c67a2228873889d6bfc1b12cc09978eb8"
+    },
+    {
+      "tag": "ECC_PLATE",
+      "note": "plates ECC",
+      "path": "tmp/a8b_true_samepose/COMPARE_plates_ecc.jpg",
+      "bytes": 190551,
+      "sha16": "4e943bb6e09f18a5",
+      "sha256": "4e943bb6e09f18a5512e35ad83c624a000e4c3c8987fc6cfea2cce13243f4f5d"
+    },
+    {
+      "tag": "GEGE_HYBRID",
+      "note": "ROI dens hybrid",
+      "path": "tmp/a8b_true_samepose/COMPARE_roi_dens_id_hybrid.jpg",
+      "bytes": 194512,
+      "sha16": "8a0bb080533226ee",
+      "sha256": "8a0bb080533226ee6f79a7658a98a026999492837bcc151f9981e12a2f9d6ed6"
+    },
+    {
+      "tag": "ECC_DONOR",
+      "note": "dens donor ECC",
+      "path": "tmp/a8b_true_samepose/dens_donor_ECC_peep.jpg",
+      "bytes": 65198,
+      "sha16": "c28d91b4d888704b",
+      "sha256": "c28d91b4d888704b4b80deca2f2e2d110a0f1c6e0503c4d4961ce8680ac495b8"
+    },
+    {
+      "tag": "ALIGN_WNK_PATH1E",
+      "note": "aligned peep 對位",
+      "path": "tmp/amrs_nonhd_wnk_path1e/04_aligned_peep.jpg",
+      "bytes": 244372,
+      "sha16": "6f386063192f6367",
+      "sha256": "6f386063192f6367a058859e915806a71ae12000c9aac680573b4c1b0332f4c5"
+    },
+    {
+      "tag": "ALIGN_SQUARE_WNK",
+      "note": "square WNK aligned",
+      "path": "tmp/amrs_square_wnk_paste/05_aligned_peep.jpg",
+      "bytes": 197982,
+      "sha16": "434f364ecf333d45",
+      "sha256": "434f364ecf333d457b824bb6b97075e59fc7e6a19b8605c50ca0b86bd5e24a58"
+    },
+    {
+      "tag": "ALIGN_DBSS",
+      "note": "DBSS aligned peep",
+      "path": "tmp/dbss_5c00a572/04_aligned_peep.jpg",
+      "bytes": 80997,
+      "sha16": "15618a8db7742057",
+      "sha256": "15618a8db7742057bee11ee7e1cd7feb662bf772935e0fa59c2eae84ac2c29a4"
+    },
+    {
+      "tag": "ECC_HARDPASTE",
+      "note": "ECC hardpaste before/after",
+      "path": "tmp/ecc_paste_e107/COMPARE_peep_before_after.jpg",
+      "bytes": 247397,
+      "sha16": "da7e93a3d80e2fa7",
+      "sha256": "da7e93a3d80e2fa7f07c62683db978d20ce25d5d2558486e229cbf1226f5dd39"
+    },
+    {
+      "tag": "FILMSTRIP",
+      "note": "cinema filmstrip peep",
+      "path": "tmp/cinema_v10/FIG5_peep_filmstrip.png",
+      "bytes": 293550,
+      "sha16": "e98aa8a92e9dad71",
+      "sha256": "e98aa8a92e9dad7102023afaa12a5eab987f879fb2f76e68e4731d278895ca89"
+    },
+    {
+      "tag": "STITCH_HOMOGRAPHY",
+      "note": "homography 對位 stitch",
+      "path": "tmp/cinema_v10/FIG6_peep_stitch_homography.png",
+      "bytes": 1223977,
+      "sha16": "fe56452e561774a3",
+      "sha256": "fe56452e561774a39cac22bd09ef4c437e970855f206e3035b61a0cfd67d539a"
+    },
+    {
+      "tag": "STITCH_MESH",
+      "note": "local mesh stitch",
+      "path": "tmp/cinema_v10/FIG6_peep_stitch_local_mesh.png",
+      "bytes": 1225837,
+      "sha16": "4608cbfd3cb6a734",
+      "sha256": "4608cbfd3cb6a73489920428d4adaddb7558e5f2dafc240f331cf48812513cd3"
+    },
+    {
+      "tag": "STITCH_SIMILARITY",
+      "note": "similarity stitch",
+      "path": "tmp/cinema_v10/FIG6_peep_stitch_similarity.png",
+      "bytes": 1225837,
+      "sha16": "4608cbfd3cb6a734",
+      "sha256": "4608cbfd3cb6a73489920428d4adaddb7558e5f2dafc240f331cf48812513cd3"
+    },
+    {
+      "tag": "AB_FACE_PEEP",
+      "note": "AB face on dens peep",
+      "path": "tmp/fei_A_0-140/HUB_FACEAB_ON_DENS/boards/FACE_ONLY_AB_PEEP.jpg",
+      "bytes": 116231,
+      "sha16": "608d71123ae3e230",
+      "sha256": "608d71123ae3e2301adf56f3d4eb441ee2ee687a2154afab9a3817d8ed6ef498"
+    },
+    {
+      "tag": "ABIC_FACE_PEEP",
+      "note": "TRUE AB+IC face peep",
+      "path": "tmp/fei_A_0-140/HUB_FACE_TRUE_AB_IC_ON_DENS/boards/PEEP_FACE_TRUE_ON_DENS.jpg",
+      "bytes": 117265,
+      "sha16": "6f71a2e3d14db887",
+      "sha256": "6f71a2e3d14db88746080f64a7802665d38d5033db4a0f44ff421251a6c7696e"
+    },
+    {
+      "tag": "THK_HALF2X",
+      "note": "HALF2X FLF vs HOLD",
+      "path": "tmp/fei_A_0-140/HUB_TRUE_AB_IC_PERSON_FULL/trial_v2v_r2v/out/boards/PEEP_HALF2X_FLF_vs_HOLD.jpg",
+      "bytes": 462849,
+      "sha16": "cdf18b6c762e5c88",
+      "sha256": "cdf18b6c762e5c880772b44c9de830872c57fe9b64f3fb5ba1f56d43b0bc2d8e"
+    },
+    {
+      "tag": "THK_ABIC_FLF",
+      "note": "LOCK FLF ABIC vs elev",
+      "path": "tmp/fei_A_0-140/HUB_TRUE_AB_IC_PERSON_FULL/trial_v2v_r2v/out/boards/PEEP_LOCK_FLF_ABIC_vs_elev.jpg",
+      "bytes": 461997,
+      "sha16": "8bf6132847cbcd80",
+      "sha256": "8bf6132847cbcd80aed126753320aabafd4d977543bbb504b0c914058dad26af"
+    },
+    {
+      "tag": "THK_GRID05",
+      "note": "0.5s grid elev peep",
+      "path": "tmp/fei_A_0-140/HUB_TRUE_AB_IC_PERSON_FULL/trial_v2v_r2v/out/boards/PEEP_GRID05_MID_elev.jpg",
+      "bytes": 587741,
+      "sha16": "1c0a56be6c8114b3",
+      "sha256": "1c0a56be6c8114b303621565c66e025a233d3b6fc26c158ed83a334b5bd97cd4"
+    },
+    {
+      "tag": "ELEV_FACE_HALF2X",
+      "note": "升臉 HALF2X 55/85/112",
+      "path": "tmp/fei_A_0-140/HUB_TRUE_AB_IC_PERSON_FULL/trial_v2v_r2v/out/elev_face_half2x/PEEP_ELEV_FACE_HALF2X_55_85_112.jpg",
+      "bytes": 448225,
+      "sha16": "be440b99d388dd4d",
+      "sha256": "be440b99d388dd4d2c85ffddf8aca0f0f3e59f1c8201ff0d7153cfe4ae4743a2"
+    },
+    {
+      "tag": "STILL_I2V_R2V",
+      "note": "still vs I2V FLF R2V",
+      "path": "tmp/fei_A_0-140/HUB_TRUE_AB_IC_PERSON_FULL/trial_v2v_r2v/boards/PEEP_STILL_vs_I2V_FLF_R2V.jpg",
+      "bytes": 354965,
+      "sha16": "3778fbd9d5fea7d4",
+      "sha256": "3778fbd9d5fea7d4b45181d13db84a51df5b9566e7a1441a5605bb76731fd234"
+    },
+    {
+      "tag": "ECC_PIN_A0",
+      "note": "ECC dens pin A0",
+      "path": "tmp/fei_A_0-140/src_png_thk_v2/ecc_dens_plate/flf_pins_ecc_all/pin_0000.jpg",
+      "bytes": 622810,
+      "sha16": "23223697a39f4c28",
+      "sha256": "23223697a39f4c2829fc391fa3fef286ec50119e528d2b030f88f824e81e3e21"
+    },
+    {
+      "tag": "ECC_PIN_A55",
+      "note": "ECC dens pin A55",
+      "path": "tmp/fei_A_0-140/src_png_thk_v2/ecc_dens_plate/flf_pins_ecc_all/pin_0055.jpg",
+      "bytes": 679601,
+      "sha16": "df581bb0a428d0dd",
+      "sha256": "df581bb0a428d0dde68112360cf04254b8d15b2b89bf054a14935b9686932349"
+    },
+    {
+      "tag": "ECC_PIN_A140",
+      "note": "ECC dens pin A140",
+      "path": "tmp/fei_A_0-140/src_png_thk_v2/ecc_dens_plate/flf_pins_ecc_all/pin_0140.jpg",
+      "bytes": 756690,
+      "sha16": "1c63e4a5327dd2c8",
+      "sha256": "1c63e4a5327dd2c82204b4b44d331a99a8675a449388a8898154c2dbc4875d4a"
+    }
+  ]
+}

@@ -1,0 +1,1368 @@
+{
+  "schema": "LINK_GRAPH_V1",
+  "write_id": "01764",
+  "asof": "2026-11-16T10:10+08",
+  "zh": "技能／技法／閘／SHA 縮圖 的 LINK 鏈圖",
+  "honest": "01763 有 ref_tags+sha 但無 edges；01764 補 LINK",
+  "edge_kinds": [
+    "depends_on",
+    "feeds",
+    "gates",
+    "compose",
+    "implements",
+    "alt",
+    "kill_default",
+    "restore"
+  ],
+  "nodes_n": 31,
+  "links_n": 28,
+  "nodes": {
+    "face-densify-soft-roi": {
+      "id": "face-densify-soft-roi",
+      "zh": "格格2/3/NO.2+3/NO.EXT+3",
+      "kind": "server_skill",
+      "path": "server-skills/face-densify-soft-roi/SKILL.md",
+      "ref_tags": [
+        "GEGE_HYBRID",
+        "AB_FACE_PEEP"
+      ],
+      "ref_sha16": [
+        "8a0bb080533226ee",
+        "608d71123ae3e230"
+      ],
+      "ref_links": [
+        {
+          "tag": "GEGE_HYBRID",
+          "sha16": "8a0bb080533226ee",
+          "path": "tmp/a8b_true_samepose/COMPARE_roi_dens_id_hybrid.jpg"
+        },
+        {
+          "tag": "AB_FACE_PEEP",
+          "sha16": "608d71123ae3e230",
+          "path": "tmp/fei_A_0-140/HUB_FACEAB_ON_DENS/boards/FACE_ONLY_AB_PEEP.jpg"
+        }
+      ]
+    },
+    "pipi-src-pass-review": {
+      "id": "pipi-src-pass-review",
+      "zh": "皮皮畫通行審查",
+      "kind": "server_skill",
+      "path": "server-skills/pipi-src-pass-review/SKILL.md",
+      "ref_tags": [
+        "PIPI_BODY_WEAK"
+      ],
+      "ref_sha16": [
+        "271b63f69d1476af"
+      ],
+      "ref_links": [
+        {
+          "tag": "PIPI_BODY_WEAK",
+          "sha16": "271b63f69d1476af",
+          "path": "COMPARE_BODY_WEAK_A_0003.jpg"
+        }
+      ]
+    },
+    "shengqing-huiwei": {
+      "id": "shengqing-huiwei",
+      "zh": "升清回位 SHQ / SC-H",
+      "kind": "server_skill",
+      "path": "server-skills/shengqing-huiwei/SKILL.md",
+      "ref_tags": [],
+      "ref_sha16": [],
+      "ref_links": []
+    },
+    "tiao-huan-kou": {
+      "id": "tiao-huan-kou",
+      "zh": "跳環扣 THK",
+      "kind": "server_skill",
+      "path": "server-skills/tiao-huan-kou/SKILL.md",
+      "ref_tags": [
+        "THK_HALF2X",
+        "THK_ABIC_FLF",
+        "THK_GRID05",
+        "ELEV_FACE_HALF2X"
+      ],
+      "ref_sha16": [
+        "cdf18b6c762e5c88",
+        "8bf6132847cbcd80",
+        "1c0a56be6c8114b3",
+        "be440b99d388dd4d"
+      ],
+      "ref_links": [
+        {
+          "tag": "THK_HALF2X",
+          "sha16": "cdf18b6c762e5c88",
+          "path": "tmp/fei_A_0-140/HUB_TRUE_AB_IC_PERSON_FULL/trial_v2v_r2v/out/boards/PEEP_HALF2X_FLF_vs_HOLD.jpg"
+        },
+        {
+          "tag": "THK_ABIC_FLF",
+          "sha16": "8bf6132847cbcd80",
+          "path": "tmp/fei_A_0-140/HUB_TRUE_AB_IC_PERSON_FULL/trial_v2v_r2v/out/boards/PEEP_LOCK_FLF_ABIC_vs_elev.jpg"
+        },
+        {
+          "tag": "THK_GRID05",
+          "sha16": "1c0a56be6c8114b3",
+          "path": "tmp/fei_A_0-140/HUB_TRUE_AB_IC_PERSON_FULL/trial_v2v_r2v/out/boards/PEEP_GRID05_MID_elev.jpg"
+        },
+        {
+          "tag": "ELEV_FACE_HALF2X",
+          "sha16": "be440b99d388dd4d",
+          "path": "tmp/fei_A_0-140/HUB_TRUE_AB_IC_PERSON_FULL/trial_v2v_r2v/out/elev_face_half2x/PEEP_ELEV_FACE_HALF2X_55_85_112.jpg"
+        }
+      ]
+    },
+    "jun-zs-ecosystem": {
+      "id": "jun-zs-ecosystem",
+      "zh": "JUN-ZS 場憲／器官",
+      "kind": "server_skill",
+      "path": "server-skills/jun-zs-ecosystem/SKILL.md",
+      "ref_tags": [],
+      "ref_sha16": [],
+      "ref_links": []
+    },
+    "field-tray": {
+      "id": "field-tray",
+      "zh": "Field Tray 活流庫存",
+      "kind": "server_skill",
+      "path": "server-skills/field-tray/SKILL.md",
+      "ref_tags": [],
+      "ref_sha16": [],
+      "ref_links": []
+    },
+    "PIPI_ACTIVE_DENSIFY": {
+      "id": "PIPI_ACTIVE_DENSIFY",
+      "zh": "皮皮畫 ACTIVE densify",
+      "kind": "technique",
+      "docs": [
+        "tmp/fei_A_0-140/PROMPT_PIPI_ACTIVE.txt",
+        "tmp/fei_A_0-140/RECEIPT_PIPI_ACTIVE_0-30.txt"
+      ],
+      "ref_tags": [
+        "PIPI_BODY_WEAK"
+      ],
+      "ref_sha16": [
+        "271b63f69d1476af"
+      ],
+      "status": null,
+      "ref_links": [
+        {
+          "tag": "PIPI_BODY_WEAK",
+          "sha16": "271b63f69d1476af",
+          "path": "COMPARE_BODY_WEAK_A_0003.jpg"
+        }
+      ]
+    },
+    "GEGE2_SOFT": {
+      "id": "GEGE2_SOFT",
+      "zh": "格格2 soft 全幅小升清",
+      "kind": "technique",
+      "docs": [
+        "tmp/fei_A_0-140/METHOD_FACE_DENSIFY_SOFT_ROI_V1.md",
+        "tmp/fei_A_0-140/GEGE_CANONICAL.md"
+      ],
+      "ref_tags": [
+        "GEGE_HYBRID"
+      ],
+      "ref_sha16": [
+        "8a0bb080533226ee"
+      ],
+      "status": null,
+      "ref_links": [
+        {
+          "tag": "GEGE_HYBRID",
+          "sha16": "8a0bb080533226ee",
+          "path": "tmp/a8b_true_samepose/COMPARE_roi_dens_id_hybrid.jpg"
+        }
+      ]
+    },
+    "GEGE3_ROI_PASTE": {
+      "id": "GEGE3_ROI_PASTE",
+      "zh": "格格3 soft→ROI羽化貼SRC",
+      "kind": "technique",
+      "docs": [
+        "tmp/fei_A_0-140/METHOD_FACE_DENSIFY_SOFT_ROI_V1.md",
+        "tmp/fei_A_0-140/RECEIPT_SOFT_ROI_PASTE_19-33.txt"
+      ],
+      "ref_tags": [
+        "GEGE_HYBRID"
+      ],
+      "ref_sha16": [
+        "8a0bb080533226ee"
+      ],
+      "status": null,
+      "ref_links": [
+        {
+          "tag": "GEGE_HYBRID",
+          "sha16": "8a0bb080533226ee",
+          "path": "tmp/a8b_true_samepose/COMPARE_roi_dens_id_hybrid.jpg"
+        }
+      ]
+    },
+    "GEGE_NO_2PLUS3": {
+      "id": "GEGE_NO_2PLUS3",
+      "zh": "格格NO.2+3 身I2I+臉格格3",
+      "kind": "technique",
+      "docs": [
+        "tmp/fei_A_0-140/RECEIPT_GEGE_NO_2PLUS3_01762.txt"
+      ],
+      "ref_tags": [],
+      "ref_sha16": [],
+      "status": null,
+      "ref_links": []
+    },
+    "GEGE_NO_EXTPLUS3": {
+      "id": "GEGE_NO_EXTPLUS3",
+      "zh": "格格NO.EXT+3 身色鎖+臉",
+      "kind": "technique",
+      "docs": [
+        "tmp/fei_A_0-140/METHOD_EXT_Y_UNSHARP.md",
+        "tmp/fei_A_0-140/METHOD_GEGE2_BODY_WEAK_COLORLOCK.md"
+      ],
+      "ref_tags": [],
+      "ref_sha16": [],
+      "status": null,
+      "ref_links": []
+    },
+    "GEGE2_BODY_WEAK": {
+      "id": "GEGE2_BODY_WEAK",
+      "zh": "格格2 身弱",
+      "kind": "technique",
+      "docs": [
+        "tmp/fei_A_0-140/METHOD_GEGE2_BODY_WEAK.md"
+      ],
+      "ref_tags": [
+        "PIPI_BODY_WEAK"
+      ],
+      "ref_sha16": [
+        "271b63f69d1476af"
+      ],
+      "status": null,
+      "ref_links": [
+        {
+          "tag": "PIPI_BODY_WEAK",
+          "sha16": "271b63f69d1476af",
+          "path": "COMPARE_BODY_WEAK_A_0003.jpg"
+        }
+      ]
+    },
+    "PATH1E_PLATE_ECC": {
+      "id": "PATH1E_PLATE_ECC",
+      "zh": "PATH1E plate→ECC 硬貼升臉",
+      "kind": "technique",
+      "docs": [
+        "PIPE_E357_ECC_HARDPASTE.md",
+        "PIPE_A_WNK_MASK_CLIP_PATH1E.md"
+      ],
+      "ref_tags": [
+        "PATH1E",
+        "PATH1E_B",
+        "ECC_PEEP",
+        "ECC_HARDPASTE"
+      ],
+      "ref_sha16": [
+        "f3031ed7832b82da",
+        "24eee72b24eae1dd",
+        "c299ca8eb0a6e0f3",
+        "da7e93a3d80e2fa7"
+      ],
+      "status": null,
+      "ref_links": [
+        {
+          "tag": "PATH1E",
+          "sha16": "f3031ed7832b82da",
+          "path": "COMPARE_PATH1E_TRIAL.jpg"
+        },
+        {
+          "tag": "PATH1E_B",
+          "sha16": "24eee72b24eae1dd",
+          "path": "COMPARE_PATH1E_B.jpg"
+        },
+        {
+          "tag": "ECC_PEEP",
+          "sha16": "c299ca8eb0a6e0f3",
+          "path": "tmp/a8b_ratio_fixed/COMPARE_ecc_peeps.jpg"
+        },
+        {
+          "tag": "ECC_HARDPASTE",
+          "sha16": "da7e93a3d80e2fa7",
+          "path": "tmp/ecc_paste_e107/COMPARE_peep_before_after.jpg"
+        }
+      ]
+    },
+    "A8B_TRUE": {
+      "id": "A8B_TRUE",
+      "zh": "A8B 真姿／骨相閘",
+      "kind": "technique",
+      "docs": [
+        "tmp/fei_A_0-140/PROMPT_ST2_A8B.txt"
+      ],
+      "ref_tags": [
+        "A8B_FIRST",
+        "TRUE_A8B"
+      ],
+      "ref_sha16": [
+        "47a66d30971daca5",
+        "5b9e8b647f72d8e4"
+      ],
+      "status": null,
+      "ref_links": [
+        {
+          "tag": "A8B_FIRST",
+          "sha16": "47a66d30971daca5",
+          "path": "COMPARE_A8B_FIRST_TRIAL.jpg"
+        },
+        {
+          "tag": "TRUE_A8B",
+          "sha16": "5b9e8b647f72d8e4",
+          "path": "COMPARE_TRUE_A8B_FIRST.jpg"
+        }
+      ]
+    },
+    "AB_IC_PASTE": {
+      "id": "AB_IC_PASTE",
+      "zh": "AB+IC dens paste 升臉",
+      "kind": "technique",
+      "docs": [
+        "TIAO_HUAN_KOU/TIAO_HUAN_KOU_CANONICAL.md"
+      ],
+      "ref_tags": [
+        "ABIC_FACE_PEEP",
+        "AB_FACE_PEEP"
+      ],
+      "ref_sha16": [
+        "6f71a2e3d14db887",
+        "608d71123ae3e230"
+      ],
+      "status": null,
+      "ref_links": [
+        {
+          "tag": "ABIC_FACE_PEEP",
+          "sha16": "6f71a2e3d14db887",
+          "path": "tmp/fei_A_0-140/HUB_FACE_TRUE_AB_IC_ON_DENS/boards/PEEP_FACE_TRUE_ON_DENS.jpg"
+        },
+        {
+          "tag": "AB_FACE_PEEP",
+          "sha16": "608d71123ae3e230",
+          "path": "tmp/fei_A_0-140/HUB_FACEAB_ON_DENS/boards/FACE_ONLY_AB_PEEP.jpg"
+        }
+      ]
+    },
+    "FACE_LINE_LOCK_WNOISE": {
+      "id": "FACE_LINE_LOCK_WNOISE",
+      "zh": "臉線條鎖／白噪殺",
+      "kind": "technique",
+      "docs": [
+        "tmp/fei_A_0-140/METHOD_FACE_LINE_LOCK_WNOISE.md",
+        "tmp/fei_A_0-140/RECEIPT_FACE_LINE_WNOISE_01764.txt"
+      ],
+      "ref_tags": [],
+      "ref_sha16": [],
+      "status": null,
+      "ref_links": []
+    },
+    "ECC_ALIGN": {
+      "id": "ECC_ALIGN",
+      "zh": "ECC 對位（align peep）",
+      "kind": "technique",
+      "docs": [
+        "PIPE_E357_ECC_HARDPASTE.md"
+      ],
+      "ref_tags": [
+        "ALIGN_WNK_PATH1E",
+        "ALIGN_SQUARE_WNK",
+        "ALIGN_DBSS",
+        "ECC_DONOR"
+      ],
+      "ref_sha16": [
+        "6f386063192f6367",
+        "434f364ecf333d45",
+        "15618a8db7742057",
+        "c28d91b4d888704b"
+      ],
+      "status": null,
+      "ref_links": [
+        {
+          "tag": "ALIGN_WNK_PATH1E",
+          "sha16": "6f386063192f6367",
+          "path": "tmp/amrs_nonhd_wnk_path1e/04_aligned_peep.jpg"
+        },
+        {
+          "tag": "ALIGN_SQUARE_WNK",
+          "sha16": "434f364ecf333d45",
+          "path": "tmp/amrs_square_wnk_paste/05_aligned_peep.jpg"
+        },
+        {
+          "tag": "ALIGN_DBSS",
+          "sha16": "15618a8db7742057",
+          "path": "tmp/dbss_5c00a572/04_aligned_peep.jpg"
+        },
+        {
+          "tag": "ECC_DONOR",
+          "sha16": "c28d91b4d888704b",
+          "path": "tmp/a8b_true_samepose/dens_donor_ECC_peep.jpg"
+        }
+      ]
+    },
+    "STITCH_HOMOGRAPHY": {
+      "id": "STITCH_HOMOGRAPHY",
+      "zh": "Homography／mesh／similarity 對位拼",
+      "kind": "technique",
+      "docs": [
+        "tmp/cinema_v10/FIG6_peep_stitch_homography.png"
+      ],
+      "ref_tags": [
+        "STITCH_HOMOGRAPHY",
+        "STITCH_MESH",
+        "STITCH_SIMILARITY",
+        "FILMSTRIP"
+      ],
+      "ref_sha16": [
+        "fe56452e561774a3",
+        "4608cbfd3cb6a734",
+        "4608cbfd3cb6a734",
+        "e98aa8a92e9dad71"
+      ],
+      "status": null,
+      "ref_links": [
+        {
+          "tag": "STITCH_HOMOGRAPHY",
+          "sha16": "fe56452e561774a3",
+          "path": "tmp/cinema_v10/FIG6_peep_stitch_homography.png"
+        },
+        {
+          "tag": "STITCH_MESH",
+          "sha16": "4608cbfd3cb6a734",
+          "path": "tmp/cinema_v10/FIG6_peep_stitch_local_mesh.png"
+        },
+        {
+          "tag": "STITCH_SIMILARITY",
+          "sha16": "4608cbfd3cb6a734",
+          "path": "tmp/cinema_v10/FIG6_peep_stitch_similarity.png"
+        },
+        {
+          "tag": "FILMSTRIP",
+          "sha16": "e98aa8a92e9dad71",
+          "path": "tmp/cinema_v10/FIG5_peep_filmstrip.png"
+        }
+      ]
+    },
+    "OPTICAL_FLOW_MINTERPOLATE": {
+      "id": "OPTICAL_FLOW_MINTERPOLATE",
+      "zh": "光流 minterpolate（THK K07 備選非主）",
+      "kind": "technique",
+      "docs": [
+        "TIAO_HUAN_KOU/TIAO_HUAN_KOU_CANONICAL.md"
+      ],
+      "ref_tags": [],
+      "ref_sha16": [],
+      "status": "ALT_K07",
+      "ref_links": []
+    },
+    "THK_HALF2X_LOCK_FLF": {
+      "id": "THK_HALF2X_LOCK_FLF",
+      "zh": "跳環扣 HALF2X LOCK FLF",
+      "kind": "technique",
+      "docs": [
+        "TIAO_HUAN_KOU/TIAO_HUAN_KOU_CANONICAL.md"
+      ],
+      "ref_tags": [
+        "THK_HALF2X",
+        "ECC_PIN_A0",
+        "ECC_PIN_A140"
+      ],
+      "ref_sha16": [
+        "cdf18b6c762e5c88",
+        "23223697a39f4c28",
+        "1c63e4a5327dd2c8"
+      ],
+      "status": null,
+      "ref_links": [
+        {
+          "tag": "THK_HALF2X",
+          "sha16": "cdf18b6c762e5c88",
+          "path": "tmp/fei_A_0-140/HUB_TRUE_AB_IC_PERSON_FULL/trial_v2v_r2v/out/boards/PEEP_HALF2X_FLF_vs_HOLD.jpg"
+        },
+        {
+          "tag": "ECC_PIN_A0",
+          "sha16": "23223697a39f4c28",
+          "path": "tmp/fei_A_0-140/src_png_thk_v2/ecc_dens_plate/flf_pins_ecc_all/pin_0000.jpg"
+        },
+        {
+          "tag": "ECC_PIN_A140",
+          "sha16": "1c63e4a5327dd2c8",
+          "path": "tmp/fei_A_0-140/src_png_thk_v2/ecc_dens_plate/flf_pins_ecc_all/pin_0140.jpg"
+        }
+      ]
+    },
+    "THK_HOLD": {
+      "id": "THK_HOLD",
+      "zh": "跳環扣 HOLD 真姿軸",
+      "kind": "technique",
+      "docs": [
+        "TIAO_HUAN_KOU/TIAO_HUAN_KOU_CANONICAL.md"
+      ],
+      "ref_tags": [
+        "THK_HALF2X"
+      ],
+      "ref_sha16": [
+        "cdf18b6c762e5c88"
+      ],
+      "status": null,
+      "ref_links": [
+        {
+          "tag": "THK_HALF2X",
+          "sha16": "cdf18b6c762e5c88",
+          "path": "tmp/fei_A_0-140/HUB_TRUE_AB_IC_PERSON_FULL/trial_v2v_r2v/out/boards/PEEP_HALF2X_FLF_vs_HOLD.jpg"
+        }
+      ]
+    },
+    "R2V_LOCK_FLF": {
+      "id": "R2V_LOCK_FLF",
+      "zh": "reference_to_video 頭尾+kf",
+      "kind": "technique",
+      "docs": [
+        "SETS/BRANCH_GROK_AGENT_THK_20261116/MEMORY/MEMORY_SESSION.json"
+      ],
+      "ref_tags": [
+        "STILL_I2V_R2V"
+      ],
+      "ref_sha16": [
+        "3778fbd9d5fea7d4"
+      ],
+      "status": "agent_BROKEN_ui_OK",
+      "ref_links": [
+        {
+          "tag": "STILL_I2V_R2V",
+          "sha16": "3778fbd9d5fea7d4",
+          "path": "tmp/fei_A_0-140/HUB_TRUE_AB_IC_PERSON_FULL/trial_v2v_r2v/boards/PEEP_STILL_vs_I2V_FLF_R2V.jpg"
+        }
+      ]
+    },
+    "I2V_SINGLE": {
+      "id": "I2V_SINGLE",
+      "zh": "image_to_video 單起點",
+      "kind": "technique",
+      "docs": [],
+      "ref_tags": [
+        "STILL_I2V_R2V"
+      ],
+      "ref_sha16": [
+        "3778fbd9d5fea7d4"
+      ],
+      "status": "K02_killed_as_full_film",
+      "ref_links": [
+        {
+          "tag": "STILL_I2V_R2V",
+          "sha16": "3778fbd9d5fea7d4",
+          "path": "tmp/fei_A_0-140/HUB_TRUE_AB_IC_PERSON_FULL/trial_v2v_r2v/boards/PEEP_STILL_vs_I2V_FLF_R2V.jpg"
+        }
+      ]
+    },
+    "DA_DA_QING": {
+      "id": "DA_DA_QING",
+      "zh": "大大清技法",
+      "kind": "technique",
+      "docs": [
+        "TECHNIQUE_DA_DA_QING.md"
+      ],
+      "ref_tags": [],
+      "ref_sha16": [],
+      "status": null,
+      "ref_links": []
+    },
+    "MEMORY_BOOT": {
+      "id": "MEMORY_BOOT",
+      "zh": "記憶恢復總腦",
+      "kind": "technique",
+      "docs": [
+        "SETS/SHQ_MEMORY_RESTORE/README.md"
+      ],
+      "ref_tags": [],
+      "ref_sha16": [],
+      "status": null,
+      "ref_links": []
+    },
+    "TEACH_NEXT_BRANCH": {
+      "id": "TEACH_NEXT_BRANCH",
+      "zh": "自我繼承+BRANCH",
+      "kind": "technique",
+      "docs": [
+        "SHQ_TEACH_NEXT_GROK_INHERIT.md"
+      ],
+      "ref_tags": [],
+      "ref_sha16": [],
+      "status": null,
+      "ref_links": []
+    },
+    "SHQ_DEFAULT_CHAIN": {
+      "id": "SHQ_DEFAULT_CHAIN",
+      "zh": "ACTIVE ALL + 追光 + 通行審查 + 反射生",
+      "kind": "technique",
+      "docs": [
+        "SETS/SHQ_MEMORY_RESTORE/BOOT.json"
+      ],
+      "ref_tags": [],
+      "ref_sha16": [],
+      "status": null,
+      "ref_links": []
+    },
+    "PIPI_SRC_PASS": {
+      "id": "PIPI_SRC_PASS",
+      "zh": "皮皮通行審查閘",
+      "kind": "gate",
+      "ref_tags": [
+        "PIPI_BODY_WEAK"
+      ],
+      "ref_sha16": [
+        "271b63f69d1476af"
+      ],
+      "ref_links": [
+        {
+          "tag": "PIPI_BODY_WEAK",
+          "sha16": "271b63f69d1476af",
+          "path": "COMPARE_BODY_WEAK_A_0003.jpg"
+        }
+      ]
+    },
+    "ECC_PIN_SET": {
+      "id": "ECC_PIN_SET",
+      "zh": "ECC dens SUB6 pins",
+      "kind": "asset_set",
+      "ref_tags": [
+        "ECC_PIN_A0",
+        "ECC_PIN_A55",
+        "ECC_PIN_A140"
+      ],
+      "ref_sha16": [
+        "23223697a39f4c28",
+        "df581bb0a428d0dd",
+        "1c63e4a5327dd2c8"
+      ],
+      "ref_links": [
+        {
+          "tag": "ECC_PIN_A0",
+          "sha16": "23223697a39f4c28",
+          "path": "tmp/fei_A_0-140/src_png_thk_v2/ecc_dens_plate/flf_pins_ecc_all/pin_0000.jpg"
+        },
+        {
+          "tag": "ECC_PIN_A55",
+          "sha16": "df581bb0a428d0dd",
+          "path": "tmp/fei_A_0-140/src_png_thk_v2/ecc_dens_plate/flf_pins_ecc_all/pin_0055.jpg"
+        },
+        {
+          "tag": "ECC_PIN_A140",
+          "sha16": "1c63e4a5327dd2c8",
+          "path": "tmp/fei_A_0-140/src_png_thk_v2/ecc_dens_plate/flf_pins_ecc_all/pin_0140.jpg"
+        }
+      ]
+    },
+    "SKILL_ATLAS": {
+      "id": "SKILL_ATLAS",
+      "zh": "全技能表",
+      "kind": "index",
+      "path": "MEMORY/SKILL_ATLAS.json",
+      "ref_sha16": [],
+      "ref_links": []
+    },
+    "REF_ATLAS_SHA": {
+      "id": "REF_ATLAS_SHA",
+      "zh": "參考縮圖SHA",
+      "kind": "index",
+      "path": "HUB_THUMBS_SHA/REF_ATLAS.json",
+      "ref_sha16": [],
+      "ref_links": []
+    }
+  },
+  "links": [
+    {
+      "id": "L000",
+      "from": "SHQ_DEFAULT_CHAIN",
+      "to": "PIPI_ACTIVE_DENSIFY",
+      "kind": "compose",
+      "note": "ACTIVE ALL 默認含皮皮 dens",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L001",
+      "from": "SHQ_DEFAULT_CHAIN",
+      "to": "PIPI_SRC_PASS",
+      "kind": "gates",
+      "note": "通行審查閘",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L002",
+      "from": "PIPI_ACTIVE_DENSIFY",
+      "to": "PIPI_SRC_PASS",
+      "kind": "gates",
+      "note": "出圖後必審",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L003",
+      "from": "GEGE2_SOFT",
+      "to": "GEGE3_ROI_PASTE",
+      "kind": "feeds",
+      "note": "soft 全幅 → ROI 羽化貼",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L004",
+      "from": "GEGE3_ROI_PASTE",
+      "to": "GEGE_NO_2PLUS3",
+      "kind": "compose",
+      "note": "身I2I+臉格格3",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L005",
+      "from": "GEGE2_SOFT",
+      "to": "GEGE_NO_EXTPLUS3",
+      "kind": "compose",
+      "note": "EXT身色鎖+臉",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L006",
+      "from": "GEGE2_BODY_WEAK",
+      "to": "PIPI_SRC_PASS",
+      "kind": "gates",
+      "note": "身弱後仍過審",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L007",
+      "from": "face-densify-soft-roi",
+      "to": "GEGE2_SOFT",
+      "kind": "implements",
+      "note": "server skill → 技法",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L008",
+      "from": "face-densify-soft-roi",
+      "to": "GEGE3_ROI_PASTE",
+      "kind": "implements",
+      "note": "server skill → 技法",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L009",
+      "from": "PATH1E_PLATE_ECC",
+      "to": "ECC_ALIGN",
+      "kind": "depends_on",
+      "note": "plate 後 ECC 對位硬貼",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L010",
+      "from": "ECC_ALIGN",
+      "to": "PATH1E_PLATE_ECC",
+      "kind": "feeds",
+      "note": "align peep 服務 PATH1E",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L011",
+      "from": "A8B_TRUE",
+      "to": "PATH1E_PLATE_ECC",
+      "kind": "feeds",
+      "note": "A8B 身份源 → plate/ECC",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L012",
+      "from": "PATH1E_PLATE_ECC",
+      "to": "ECC_PIN_SET",
+      "kind": "feeds",
+      "note": "ECC dens plate pins for THK",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L013",
+      "from": "AB_IC_PASTE",
+      "to": "THK_HALF2X_LOCK_FLF",
+      "kind": "feeds",
+      "note": "升臉 pin 可進 FLF",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L014",
+      "from": "FACE_LINE_LOCK_WNOISE",
+      "to": "AB_IC_PASTE",
+      "kind": "feeds",
+      "note": "plate 去塑皮後 paste",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L015",
+      "from": "STITCH_HOMOGRAPHY",
+      "to": "ECC_ALIGN",
+      "kind": "alt",
+      "note": "幾何對位族 · stitch vs ECC",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L016",
+      "from": "OPTICAL_FLOW_MINTERPOLATE",
+      "to": "THK_HOLD",
+      "kind": "alt",
+      "note": "K07 備選 · HOLD 後輔助",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L017",
+      "from": "OPTICAL_FLOW_MINTERPOLATE",
+      "to": "THK_HALF2X_LOCK_FLF",
+      "kind": "kill_default",
+      "note": "禁當 dens 升質主鏈",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L018",
+      "from": "THK_HOLD",
+      "to": "THK_HALF2X_LOCK_FLF",
+      "kind": "feeds",
+      "note": "先 HOLD 基線再 FLF hero",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L019",
+      "from": "THK_HALF2X_LOCK_FLF",
+      "to": "R2V_LOCK_FLF",
+      "kind": "depends_on",
+      "note": "HERO 引擎 = R2V",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L020",
+      "from": "R2V_LOCK_FLF",
+      "to": "I2V_SINGLE",
+      "kind": "kill_default",
+      "note": "K02 禁 I2V 冒全片 FLF",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L021",
+      "from": "ECC_PIN_SET",
+      "to": "THK_HALF2X_LOCK_FLF",
+      "kind": "feeds",
+      "note": "SUB6 dens pins",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L022",
+      "from": "tiao-huan-kou",
+      "to": "THK_HALF2X_LOCK_FLF",
+      "kind": "implements",
+      "note": "skill → 憲主鏈",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L023",
+      "from": "MEMORY_BOOT",
+      "to": "TEACH_NEXT_BRANCH",
+      "kind": "feeds",
+      "note": "父 BOOT → 繼承協議",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L024",
+      "from": "TEACH_NEXT_BRANCH",
+      "to": "SKILL_ATLAS",
+      "kind": "feeds",
+      "note": "繼承後掛全技能表",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L025",
+      "from": "SKILL_ATLAS",
+      "to": "REF_ATLAS_SHA",
+      "kind": "depends_on",
+      "note": "技能↔縮圖 SHA",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L026",
+      "from": "pipi-src-pass-review",
+      "to": "PIPI_SRC_PASS",
+      "kind": "implements",
+      "note": "skill → 閘",
+      "from_exists": true,
+      "to_exists": true
+    },
+    {
+      "id": "L027",
+      "from": "shengqing-huiwei",
+      "to": "SHQ_DEFAULT_CHAIN",
+      "kind": "implements",
+      "note": "skill → 默認鏈",
+      "from_exists": true,
+      "to_exists": true
+    }
+  ],
+  "out_adj": {
+    "SHQ_DEFAULT_CHAIN": [
+      {
+        "to": "PIPI_ACTIVE_DENSIFY",
+        "kind": "compose",
+        "id": "L000"
+      },
+      {
+        "to": "PIPI_SRC_PASS",
+        "kind": "gates",
+        "id": "L001"
+      }
+    ],
+    "PIPI_ACTIVE_DENSIFY": [
+      {
+        "to": "PIPI_SRC_PASS",
+        "kind": "gates",
+        "id": "L002"
+      }
+    ],
+    "GEGE2_SOFT": [
+      {
+        "to": "GEGE3_ROI_PASTE",
+        "kind": "feeds",
+        "id": "L003"
+      },
+      {
+        "to": "GEGE_NO_EXTPLUS3",
+        "kind": "compose",
+        "id": "L005"
+      }
+    ],
+    "GEGE3_ROI_PASTE": [
+      {
+        "to": "GEGE_NO_2PLUS3",
+        "kind": "compose",
+        "id": "L004"
+      }
+    ],
+    "GEGE2_BODY_WEAK": [
+      {
+        "to": "PIPI_SRC_PASS",
+        "kind": "gates",
+        "id": "L006"
+      }
+    ],
+    "face-densify-soft-roi": [
+      {
+        "to": "GEGE2_SOFT",
+        "kind": "implements",
+        "id": "L007"
+      },
+      {
+        "to": "GEGE3_ROI_PASTE",
+        "kind": "implements",
+        "id": "L008"
+      }
+    ],
+    "PATH1E_PLATE_ECC": [
+      {
+        "to": "ECC_ALIGN",
+        "kind": "depends_on",
+        "id": "L009"
+      },
+      {
+        "to": "ECC_PIN_SET",
+        "kind": "feeds",
+        "id": "L012"
+      }
+    ],
+    "ECC_ALIGN": [
+      {
+        "to": "PATH1E_PLATE_ECC",
+        "kind": "feeds",
+        "id": "L010"
+      }
+    ],
+    "A8B_TRUE": [
+      {
+        "to": "PATH1E_PLATE_ECC",
+        "kind": "feeds",
+        "id": "L011"
+      }
+    ],
+    "AB_IC_PASTE": [
+      {
+        "to": "THK_HALF2X_LOCK_FLF",
+        "kind": "feeds",
+        "id": "L013"
+      }
+    ],
+    "FACE_LINE_LOCK_WNOISE": [
+      {
+        "to": "AB_IC_PASTE",
+        "kind": "feeds",
+        "id": "L014"
+      }
+    ],
+    "STITCH_HOMOGRAPHY": [
+      {
+        "to": "ECC_ALIGN",
+        "kind": "alt",
+        "id": "L015"
+      }
+    ],
+    "OPTICAL_FLOW_MINTERPOLATE": [
+      {
+        "to": "THK_HOLD",
+        "kind": "alt",
+        "id": "L016"
+      },
+      {
+        "to": "THK_HALF2X_LOCK_FLF",
+        "kind": "kill_default",
+        "id": "L017"
+      }
+    ],
+    "THK_HOLD": [
+      {
+        "to": "THK_HALF2X_LOCK_FLF",
+        "kind": "feeds",
+        "id": "L018"
+      }
+    ],
+    "THK_HALF2X_LOCK_FLF": [
+      {
+        "to": "R2V_LOCK_FLF",
+        "kind": "depends_on",
+        "id": "L019"
+      }
+    ],
+    "R2V_LOCK_FLF": [
+      {
+        "to": "I2V_SINGLE",
+        "kind": "kill_default",
+        "id": "L020"
+      }
+    ],
+    "ECC_PIN_SET": [
+      {
+        "to": "THK_HALF2X_LOCK_FLF",
+        "kind": "feeds",
+        "id": "L021"
+      }
+    ],
+    "tiao-huan-kou": [
+      {
+        "to": "THK_HALF2X_LOCK_FLF",
+        "kind": "implements",
+        "id": "L022"
+      }
+    ],
+    "MEMORY_BOOT": [
+      {
+        "to": "TEACH_NEXT_BRANCH",
+        "kind": "feeds",
+        "id": "L023"
+      }
+    ],
+    "TEACH_NEXT_BRANCH": [
+      {
+        "to": "SKILL_ATLAS",
+        "kind": "feeds",
+        "id": "L024"
+      }
+    ],
+    "SKILL_ATLAS": [
+      {
+        "to": "REF_ATLAS_SHA",
+        "kind": "depends_on",
+        "id": "L025"
+      }
+    ],
+    "pipi-src-pass-review": [
+      {
+        "to": "PIPI_SRC_PASS",
+        "kind": "implements",
+        "id": "L026"
+      }
+    ],
+    "shengqing-huiwei": [
+      {
+        "to": "SHQ_DEFAULT_CHAIN",
+        "kind": "implements",
+        "id": "L027"
+      }
+    ]
+  },
+  "in_adj": {
+    "PIPI_ACTIVE_DENSIFY": [
+      {
+        "from": "SHQ_DEFAULT_CHAIN",
+        "kind": "compose",
+        "id": "L000"
+      }
+    ],
+    "PIPI_SRC_PASS": [
+      {
+        "from": "SHQ_DEFAULT_CHAIN",
+        "kind": "gates",
+        "id": "L001"
+      },
+      {
+        "from": "PIPI_ACTIVE_DENSIFY",
+        "kind": "gates",
+        "id": "L002"
+      },
+      {
+        "from": "GEGE2_BODY_WEAK",
+        "kind": "gates",
+        "id": "L006"
+      },
+      {
+        "from": "pipi-src-pass-review",
+        "kind": "implements",
+        "id": "L026"
+      }
+    ],
+    "GEGE3_ROI_PASTE": [
+      {
+        "from": "GEGE2_SOFT",
+        "kind": "feeds",
+        "id": "L003"
+      },
+      {
+        "from": "face-densify-soft-roi",
+        "kind": "implements",
+        "id": "L008"
+      }
+    ],
+    "GEGE_NO_2PLUS3": [
+      {
+        "from": "GEGE3_ROI_PASTE",
+        "kind": "compose",
+        "id": "L004"
+      }
+    ],
+    "GEGE_NO_EXTPLUS3": [
+      {
+        "from": "GEGE2_SOFT",
+        "kind": "compose",
+        "id": "L005"
+      }
+    ],
+    "GEGE2_SOFT": [
+      {
+        "from": "face-densify-soft-roi",
+        "kind": "implements",
+        "id": "L007"
+      }
+    ],
+    "ECC_ALIGN": [
+      {
+        "from": "PATH1E_PLATE_ECC",
+        "kind": "depends_on",
+        "id": "L009"
+      },
+      {
+        "from": "STITCH_HOMOGRAPHY",
+        "kind": "alt",
+        "id": "L015"
+      }
+    ],
+    "PATH1E_PLATE_ECC": [
+      {
+        "from": "ECC_ALIGN",
+        "kind": "feeds",
+        "id": "L010"
+      },
+      {
+        "from": "A8B_TRUE",
+        "kind": "feeds",
+        "id": "L011"
+      }
+    ],
+    "ECC_PIN_SET": [
+      {
+        "from": "PATH1E_PLATE_ECC",
+        "kind": "feeds",
+        "id": "L012"
+      }
+    ],
+    "THK_HALF2X_LOCK_FLF": [
+      {
+        "from": "AB_IC_PASTE",
+        "kind": "feeds",
+        "id": "L013"
+      },
+      {
+        "from": "OPTICAL_FLOW_MINTERPOLATE",
+        "kind": "kill_default",
+        "id": "L017"
+      },
+      {
+        "from": "THK_HOLD",
+        "kind": "feeds",
+        "id": "L018"
+      },
+      {
+        "from": "ECC_PIN_SET",
+        "kind": "feeds",
+        "id": "L021"
+      },
+      {
+        "from": "tiao-huan-kou",
+        "kind": "implements",
+        "id": "L022"
+      }
+    ],
+    "AB_IC_PASTE": [
+      {
+        "from": "FACE_LINE_LOCK_WNOISE",
+        "kind": "feeds",
+        "id": "L014"
+      }
+    ],
+    "THK_HOLD": [
+      {
+        "from": "OPTICAL_FLOW_MINTERPOLATE",
+        "kind": "alt",
+        "id": "L016"
+      }
+    ],
+    "R2V_LOCK_FLF": [
+      {
+        "from": "THK_HALF2X_LOCK_FLF",
+        "kind": "depends_on",
+        "id": "L019"
+      }
+    ],
+    "I2V_SINGLE": [
+      {
+        "from": "R2V_LOCK_FLF",
+        "kind": "kill_default",
+        "id": "L020"
+      }
+    ],
+    "TEACH_NEXT_BRANCH": [
+      {
+        "from": "MEMORY_BOOT",
+        "kind": "feeds",
+        "id": "L023"
+      }
+    ],
+    "SKILL_ATLAS": [
+      {
+        "from": "TEACH_NEXT_BRANCH",
+        "kind": "feeds",
+        "id": "L024"
+      }
+    ],
+    "REF_ATLAS_SHA": [
+      {
+        "from": "SKILL_ATLAS",
+        "kind": "depends_on",
+        "id": "L025"
+      }
+    ],
+    "SHQ_DEFAULT_CHAIN": [
+      {
+        "from": "shengqing-huiwei",
+        "kind": "implements",
+        "id": "L027"
+      }
+    ]
+  },
+  "pipelines": {
+    "PIPE_PIPI": {
+      "zh": "皮皮畫主鏈",
+      "steps": [
+        "PIPI_ACTIVE_DENSIFY",
+        "PIPI_SRC_PASS"
+      ],
+      "call": "ACTIVE ALL + 通行審查"
+    },
+    "PIPE_GEGE_FACE": {
+      "zh": "格格臉 dens",
+      "steps": [
+        "GEGE2_SOFT",
+        "GEGE3_ROI_PASTE",
+        "GEGE_NO_EXTPLUS3"
+      ],
+      "call": "格格2/3/NO.EXT+3"
+    },
+    "PIPE_PATH1E_ECC": {
+      "zh": "PATH1E ECC 對位硬貼",
+      "steps": [
+        "A8B_TRUE",
+        "PATH1E_PLATE_ECC",
+        "ECC_ALIGN",
+        "ECC_PIN_SET"
+      ],
+      "call": "PATH1E + ECC"
+    },
+    "PIPE_THK_HERO": {
+      "zh": "跳環扣 HERO",
+      "steps": [
+        "ECC_PIN_SET",
+        "THK_HOLD",
+        "THK_HALF2X_LOCK_FLF",
+        "R2V_LOCK_FLF"
+      ],
+      "call": "HALF2X → R2V LOCK FLF",
+      "forbid": [
+        "I2V_SINGLE as full film",
+        "OPTICAL_FLOW as dens main"
+      ]
+    },
+    "PIPE_MEMORY": {
+      "zh": "記憶掛回",
+      "steps": [
+        "MEMORY_BOOT",
+        "TEACH_NEXT_BRANCH",
+        "SKILL_ATLAS",
+        "REF_ATLAS_SHA"
+      ],
+      "call": "RESTORE MEMORY · SKILL_ATLAS"
+    }
+  },
+  "file_links": {
+    "skill_atlas": "SETS/BRANCH_GROK_AGENT_THK_20261116/MEMORY/SKILL_ATLAS.json",
+    "link_graph": "SETS/BRANCH_GROK_AGENT_THK_20261116/MEMORY/LINK_GRAPH.json",
+    "ref_atlas": "SETS/BRANCH_GROK_AGENT_THK_20261116/HUB_THUMBS_SHA/REF_ATLAS.json",
+    "boot_branch": "SETS/BRANCH_GROK_AGENT_THK_20261116/BOOT_BRANCH.json",
+    "memory_session": "SETS/BRANCH_GROK_AGENT_THK_20261116/MEMORY/MEMORY_SESSION.json",
+    "readme_branch": "SETS/BRANCH_GROK_AGENT_THK_20261116/README.md",
+    "readme_drive": "README_MEMORY_DRIVE.md",
+    "teach_next": "SHQ_TEACH_NEXT_GROK_INHERIT.md",
+    "thk_canon": "TIAO_HUAN_KOU/TIAO_HUAN_KOU_CANONICAL.md",
+    "parent_boot": "SETS/SHQ_MEMORY_RESTORE/BOOT.json",
+    "intel": "INTEL/registry.json",
+    "restore_py": "SETS/BRANCH_GROK_AGENT_THK_20261116/restore_branch.py",
+    "hub": "SETS/BRANCH_GROK_AGENT_THK_20261116/HUB",
+    "hub_link": "SETS/BRANCH_GROK_AGENT_THK_20261116/HUB/LINK/LINK_GRAPH.json",
+    "hub_link_md": "SETS/BRANCH_GROK_AGENT_THK_20261116/HUB/LINK/LINK.md",
+    "hub_manifest": "SETS/BRANCH_GROK_AGENT_THK_20261116/HUB/HUB_MANIFEST.json"
+  },
+  "hub_canonical": true
+}

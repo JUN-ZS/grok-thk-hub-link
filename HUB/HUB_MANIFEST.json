@@ -1,0 +1,107 @@
+{
+  "schema": "HUB_BRANCH_THK_V1",
+  "write_id": "01765_HUB",
+  "hub_id": "HUB_BRANCH_GROK_AGENT_THK_20261116",
+  "asof": "2026-11-16T10:12+08",
+  "zh": "BRANCH 記憶正式掛入 HUB（含 LINK）",
+  "root": "SETS/BRANCH_GROK_AGENT_THK_20261116/HUB",
+  "link": {
+    "graph": "LINK/LINK_GRAPH.json",
+    "md": "LINK/LINK.md"
+  },
+  "sha_index": "SHA/REF_ATLAS.json",
+  "skill_atlas": "SKILL_ATLAS.json",
+  "items": [
+    {
+      "rel": "BOOT_BRANCH.json",
+      "bytes": 3002,
+      "sha16": "ca051f2d724f1964"
+    },
+    {
+      "rel": "CARDS/CALL_BRANCH_FORK.json",
+      "bytes": 157,
+      "sha16": "f863c87af938b057"
+    },
+    {
+      "rel": "CARDS/CALL_LINK_GRAPH.json",
+      "bytes": 140,
+      "sha16": "8c66f55de8ea46df"
+    },
+    {
+      "rel": "CARDS/CALL_SKILL_ATLAS.json",
+      "bytes": 202,
+      "sha16": "325fa5fd613e1da3"
+    },
+    {
+      "rel": "CARDS/CALL_TEACH_NEXT_GROK_INHERIT.json",
+      "bytes": 183,
+      "sha16": "fdc0cf110558418c"
+    },
+    {
+      "rel": "CARDS/DNA_BRANCH_FORK.json",
+      "bytes": 222,
+      "sha16": "350d86a09dc697ad"
+    },
+    {
+      "rel": "CARDS/DNA_LINK_GRAPH.json",
+      "bytes": 189,
+      "sha16": "1081c82a241e564d"
+    },
+    {
+      "rel": "CARDS/DNA_SKILL_ATLAS.json",
+      "bytes": 353,
+      "sha16": "653ab8a8031d0fdf"
+    },
+    {
+      "rel": "CARDS/DNA_TEACH_NEXT_GROK_INHERIT.json",
+      "bytes": 261,
+      "sha16": "3be5b4ded7fa6196"
+    },
+    {
+      "rel": "LINK/LINK.md",
+      "bytes": 8274,
+      "sha16": "3a545625d654ae7a"
+    },
+    {
+      "rel": "LINK/LINK_GRAPH.json",
+      "bytes": 32611,
+      "sha16": "7c92f2aee03e0b09"
+    },
+    {
+      "rel": "MEMORY_SESSION.json",
+      "bytes": 2507,
+      "sha16": "9bf104212f42e007"
+    },
+    {
+      "rel": "MEMORY_SKILLS_FULL.json",
+      "bytes": 767,
+      "sha16": "d33fe49e16b03e79"
+    },
+    {
+      "rel": "README_BRANCH.md",
+      "bytes": 3871,
+      "sha16": "2e26b0d9ca0686cb"
+    },
+    {
+      "rel": "SHA/BULK_BOARDS_SHA.json",
+      "bytes": 3392,
+      "sha16": "673a31d2e98c0d42"
+    },
+    {
+      "rel": "SHA/REF_ATLAS.json",
+      "bytes": 8160,
+      "sha16": "df4ccc6bbca611a0"
+    },
+    {
+      "rel": "SHA/ecc_pins.json",
+      "bytes": 1019,
+      "sha16": "5da2d010dc6ba198"
+    },
+    {
+      "rel": "SKILL_ATLAS.json",
+      "bytes": 9610,
+      "sha16": "4c34160a36f150fa"
+    }
+  ],
+  "parent_hub_mirror": "SETS/SHQ_MEMORY_RESTORE/hub/BRANCH_THK/"
+}

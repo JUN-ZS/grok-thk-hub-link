@@ -1,9 +1,9 @@
 {
   "schema": "HUB_THUMBS_SHA_REF_ATLAS_V1",
-  "write_id": "01763",
-  "asof": "2026-11-16T10:00+08",
+  "write_id": "01766",
+  "asof": "2026-11-16T13:35+08",
   "policy": "只存路徑+SHA · 不複製大圖進父 HUB · 子 BRANCH 索引",
-  "count_ok": 27,
+  "count_ok": 28,
   "count_missing": 0,
   "missing": [],
   "refs": [
@@ -222,6 +222,14 @@
       "bytes": 756690,
       "sha16": "1c63e4a5327dd2c8",
       "sha256": "1c63e4a5327dd2c82204b4b44d331a99a8675a449388a8898154c2dbc4875d4a"
+    },
+    {
+      "tag": "FEI_A_0_140_VIDEO",
+      "note": "飛_A_0-140 6s 1280x720 24fps 有聲影片",
+      "path": "tmp/fei_A_0-140/MEDIA/fei_A_0-140.mp4",
+      "bytes": 8609628,
+      "sha16": "8db40bd631352e00",
+      "sha256": "8db40bd631352e005ca9eb8c123a4f0a4327348e9e17288115df23bea63d60a9"
     }
   ]
 }

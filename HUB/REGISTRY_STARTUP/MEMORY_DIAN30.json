@@ -1,0 +1,43 @@
+{
+  "card": "MEMORY_DIAN30",
+  "zh": "电30",
+  "call": [
+    "电30",
+    "DIAN30",
+    "电气30",
+    "那30秒电",
+    "CLOSED16",
+    "闭针16"
+  ],
+  "write": "01859",
+  "one_line": "现行对片：电30-CLOSED16 = 闭针16PIN THK 30s loop MORPH @4a65bef6 · P15:=P0 预飞",
+  "hero_asset": "4a65bef6-c095-421f-bfd0-e56efde924fb",
+  "mime": "video/mp4",
+  "size": "784x1168",
+  "T": 30.125,
+  "role": "CANON_ACTIVE · closed-pin loop reel",
+  "method": "THK_MEDIA_MORPH_FLF_30_CLOSED_V1",
+  "provenance": "MEDIA continuous a36748e6 pins · P15=P0 · W0/W1/W2 LOCK FLF · STITCH连 k=0",
+  "loop_seam_ncc": 0.996,
+  "windows": {
+    "W0": "31fb4384-5b5e-40bb-b3b4-d99593e0587e",
+    "W1": "ddda0441-a22f-444a-9fca-dcbb82060fd4",
+    "W2": "514d9182-79f4-4569-8b26-0e4f8c05fdc2"
+  },
+  "folder": "/workspace/artifacts/DIAN30_THK_CLOSED16",
+  "receipt": "RECEIPT_01859.json",
+  "void_now": [
+    "01856 40s append close",
+    "01857 retrofit tail pin 10s snap",
+    "01858 plus-s retrofit as primary (diagnostic OK not canon)",
+    "open-ring 01850 as loop source"
+  ],
+  "rules": [
+    "loop 必闭针预飞 P_last:=P0",
+    "多窗必 STITCH连 先读",
+    "禁事后封口当主法",
+    "循环缝对齐 W0 引擎头帧"
+  ],
+  "prev_hero": "5e529109-b73c-426e-84bc-d9ed1503e01d",
+  "asof": "2026-11-18T13:48+08"
+}

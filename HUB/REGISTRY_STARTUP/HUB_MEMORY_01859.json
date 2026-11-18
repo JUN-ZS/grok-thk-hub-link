@@ -1,0 +1,60 @@
+{
+  "card": "HUB_MEMORY_01859_DIAN30_CLOSED_THK",
+  "zh": "HUB记忆点 · 电30闭针跳环扣全链",
+  "asof": "2026-11-18T13:48+08",
+  "write_span": "01850→01859",
+  "milestone": [
+    {
+      "w": "01850",
+      "what": "30s MORPH open ring · 3 win"
+    },
+    {
+      "w": "01853",
+      "what": "STITCH连 入宪 · k=0 禁盲ε 禁scale"
+    },
+    {
+      "w": "01854",
+      "what": "闪电 A硬prompt vs B去电针 · B优"
+    },
+    {
+      "w": "01855",
+      "what": "A尾换错W2"
+    },
+    {
+      "w": "01856",
+      "what": "VOID 40s 另接关窗"
+    },
+    {
+      "w": "01857",
+      "what": "VOID 事后尾PIN=头 10s 急转"
+    },
+    {
+      "w": "01858",
+      "what": "加秒不往前 · 仍非根治"
+    },
+    {
+      "w": "01859",
+      "what": "LOCK 闭针16PIN重跑 · 现行hero"
+    }
+  ],
+  "root_cause": {
+    "wrong": "开环生成后再换尾/加秒/arrive",
+    "right": "PREFLIGHT 就 P_last:=P0 再 FLF"
+  },
+  "canon_methods": [
+    "THK_MEDIA_MORPH_FLF_30_CLOSED_V1",
+    "THK_CLOSED_PIN_PREFLIGHT_V1",
+    "THK_STITCH_LIAN_V1",
+    "THK_LOOP_ARRIVE_ENGINE_HEAD_V1",
+    "THK_LT_AB_TRY_V1"
+  ],
+  "hero": "4a65bef6-c095-421f-bfd0-e56efde924fb",
+  "registry": "tiao-huan-kou/REGISTRY.json v1.7.0",
+  "memory_dian30": "tiao-huan-kou/MEMORY_DIAN30.json",
+  "artifacts": {
+    "closed16": "/workspace/artifacts/DIAN30_THK_CLOSED16",
+    "stitch_lian_md": "THK_STITCH_LIAN_V1.md",
+    "lt_ab": "/workspace/artifacts/DIAN30_LT_AB_TRY"
+  },
+  "one_liner": "电30现行=闭针16 · 接缝算k · 禁事后封口 · 闪电去电针优先"
+}

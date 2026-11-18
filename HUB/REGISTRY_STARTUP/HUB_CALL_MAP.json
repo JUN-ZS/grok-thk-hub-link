@@ -1,0 +1,23 @@
+{
+  "card": "HUB_CALL_MAP_THK",
+  "asof": "2026-11-18T13:54+08",
+  "how": "用户说总称/心法 → Grok 读 REGISTRY+CALL+MEMORY → 提案融会路径 → 确认后执行",
+  "triggers": {
+    "跳环扣|THK|跳.环.扣": "TIAO_HUAN_KOU full stack",
+    "STITCH连": "THK_STITCH_LIAN_V1 heart math",
+    "闭针|CLOSED16|闭环": "CLOSED_V1 + PREFLIGHT",
+    "电30|DIAN30": "MEMORY_DIAN30 hero",
+    "闪电走位|去电针": "THK_LT_AB_TRY_V1 prefer B",
+    "升清|洞缘|外力|FOGFOG": "cross skill fuse · read those REGISTRY"
+  },
+  "proposal_template": [
+    "A 主锁路径（金 method）",
+    "B 诊断/对照路径",
+    "C 跨技融会（升清/外力/FOG…）"
+  ],
+  "forbid_auto": [
+    "blind eps stitch",
+    "open-ring retrofit as loop primary",
+    "HOLD as placement axis"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "card": "HUB_REGISTRY_STARTUP",
+  "zh": "HUB REGISTRY 启动入口 · 给本机 Grok / 他 AI 研究",
+  "asof": "2026-11-18T16:13+08",
+  "write": "01860",
+  "scope": "server-skills local constitution hub (NOT public URL by default)",
+  "root": "/root/.grok/server-skills",
+  "user_visible_export": "/workspace/artifacts/HUB_REGISTRY_STARTUP",
+  "read_order_gork": [
+    "HUB_REGISTRY_STARTUP.json (this)",
+    "tiao-huan-kou/REGISTRY.json + HUB_CALL_MAP.json + HUB_MEMORY_01859.json",
+    "tiao-huan-kou/MEMORY_DIAN30.json",
+    "tiao-huan-kou/TIAO_HUAN_KOU_CALL.md",
+    "shengqing-huiwei/REGISTRY.json + docs/SHQ_FOGFOG_SHENG_01831.md",
+    "shengqing-huiwei/STARTUP_FOLDER.md → /workspace/artifacts/SHQ_STARTUP",
+    "face-densify-soft-roi/REGISTRY.json",
+    "jun-zs-ecosystem/SKILL.md (only if JUN-ZS field)"
+  ],
+  "call_one_liner": "电30现行=闭针16 · 接缝算k · 禁事后封口 · 闪电去电针优先 · FOGFOG=升清系",
+  "skills": [
+    {
+      "skill": "face-densify-soft-roi",
+      "skill_md": "/root/.grok/server-skills/face-densify-soft-roi/SKILL.md",
+      "registry": "/root/.grok/server-skills/face-densify-soft-roi/REGISTRY.json",
+      "call": "/root/.grok/server-skills/face-densify-soft-roi/GEGE_CALL.md",
+      "startup": null,
+      "hub": []
+    },
+    {
+      "skill": "field-tray",
+      "skill_md": "/root/.grok/server-skills/field-tray/SKILL.md",
+      "registry": null,
+      "call": null,
+      "startup": null,
+      "hub": []
+    },
+    {
+      "skill": "jun-zs-ecosystem",
+      "skill_md": "/root/.grok/server-skills/jun-zs-ecosystem/SKILL.md",
+      "registry": null,
+      "call": null,
+      "startup": null,
+      "hub": []
+    },
+    {
+      "skill": "pipi-src-pass-review",
+      "skill_md": "/root/.grok/server-skills/pipi-src-pass-review/SKILL.md",
+      "registry": null,
+      "call": null,
+      "startup": null,
+      "hub": []
+    },
+    {
+      "skill": "shengqing-huiwei",
+      "skill_md": "/root/.grok/server-skills/shengqing-huiwei/SKILL.md",
+      "registry": "/root/.grok/server-skills/shengqing-huiwei/REGISTRY.json",
+      "call": "/root/.grok/server-skills/shengqing-huiwei/SHQ_WAI_LI_FAN_V3_CALL.md",
+      "startup": "/root/.grok/server-skills/shengqing-huiwei/STARTUP_FOLDER.md",
+      "hub": []
+    },
+    {
+      "skill": "tiao-huan-kou",
+      "skill_md": "/root/.grok/server-skills/tiao-huan-kou/SKILL.md",
+      "registry": "/root/.grok/server-skills/tiao-huan-kou/REGISTRY.json",
+      "call": "/root/.grok/server-skills/tiao-huan-kou/TIAO_HUAN_KOU_CALL.md",
+      "startup": null,
+      "hub": [
+        "/root/.grok/server-skills/tiao-huan-kou/HUB_CALL_MAP.json",
+        "/root/.grok/server-skills/tiao-huan-kou/HUB_MEMORY_01859.json"
+      ]
+    }
+  ],
+  "gold_dian30": {
+    "hero": "4a65bef6-c095-421f-bfd0-e56efde924fb",
+    "method": "THK_MEDIA_MORPH_FLF_30_CLOSED_V1",
+    "memory": "tiao-huan-kou/MEMORY_DIAN30.json"
+  },
+  "post_to_other_ai": {
+    "what_to_send": [
+      "HUB_REGISTRY_STARTUP.json",
+      "tiao-huan-kou/REGISTRY.json",
+      "tiao-huan-kou/HUB_MEMORY_01859.json",
+      "tiao-huan-kou/HUB_CALL_MAP.json",
+      "tiao-huan-kou/MEMORY_DIAN30.json",
+      "tiao-huan-kou/THK_STITCH_LIAN_V1.md",
+      "tiao-huan-kou/TIAO_HUAN_KOU_CALL.md",
+      "shengqing-huiwei/docs/SHQ_FOGFOG_SHENG_01831.md (if FOG)"
+    ],
+    "prompt_template": "You are continuing JUN-ZS / fei media constitution research.\nRead HUB_REGISTRY_STARTUP.json first, then REGISTRY + HUB_MEMORY.\nObey memory_rails and void_writes. Do not invent second constitution.\nWhen user says skill short-name, CALL method from REGISTRY and propose A/B/C paths.",
+    "channels": [
+      "1) Attach export pack zip/folder in chat to other model",
+      "2) Push to private GitHub repo + give clone URL + this STARTUP path",
+      "3) Paste prompt_template + attach 3 core JSON (STARTUP, REGISTRY, HUB_MEMORY)"
+    ],
+    "not_default": "No public CDN/share URL is auto-minted; sandbox paths are local to this Grok session unless you publish."
+  },
+  "github_mirror": {
+    "owner": "JUN-ZS",
+    "repo": "grok-thk-hub-link",
+    "path": "HUB/REGISTRY_STARTUP/",
+    "html_url": "https://github.com/JUN-ZS/grok-thk-hub-link",
+    "startup_link": "https://github.com/JUN-ZS/grok-thk-hub-link/blob/main/HUB/REGISTRY_STARTUP/HUB_REGISTRY_STARTUP.json",
+    "startup_raw": "https://raw.githubusercontent.com/JUN-ZS/grok-thk-hub-link/main/HUB/REGISTRY_STARTUP/HUB_REGISTRY_STARTUP.json",
+    "asof": "2026-11-18T16:18+08",
+    "write": "01860"
+  }
+}

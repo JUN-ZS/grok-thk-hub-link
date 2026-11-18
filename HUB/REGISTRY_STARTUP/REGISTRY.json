@@ -1,0 +1,312 @@
+{
+  "constitution": "TIAO_HUAN_KOU_V1",
+  "write_id": "01765+01774+01779+01787+01853+01859",
+  "asof": "2026-11-18T13:48+08",
+  "methods": {
+    "THK_HALF2X_DENS_HOLD_V1": {
+      "film": "A",
+      "claim": "TRUTH_HOLD",
+      "status": "LOCK"
+    },
+    "THK_HALF2X_DENS_LOCK_FLF_V1": {
+      "film": "B",
+      "claim": "HERO_FLF_BASE",
+      "status": "LOCK"
+    },
+    "THK_HALF2X_SOFT_HOLD_V1": {
+      "film": "C",
+      "claim": "TRUTH_SOFT",
+      "status": "LOCK"
+    },
+    "THK_HALF2X_SOFT_LOCK_FLF_V1": {
+      "film": "D",
+      "claim": "HERO_FLF",
+      "status": "LOCK",
+      "gold_asset": "4cfde85e-d3aa-4187-b21e-a64f40f25835"
+    },
+    "THK_HALF2X_ABIC_HOLD_V1": {
+      "film": "E",
+      "claim": "TRUTH_ABIC",
+      "status": "LOCK"
+    },
+    "THK_HALF2X_ABIC_LOCK_FLF_V1": {
+      "film": "F",
+      "claim": "HERO_FLF_ABIC",
+      "status": "LOCK",
+      "gold_asset": "e587f06d-d19c-4c24-836c-66f5f21c2334"
+    },
+    "THK_PEEP_HOLD_V1": {
+      "film": "G",
+      "claim": "PEEP_ID",
+      "status": "LOCK_BOARD_ONLY"
+    },
+    "THK_STILL_TRUE_AB_IC_PASTE_V1": {
+      "claim": "STILL_1to1_DENS",
+      "status": "LOCK"
+    },
+    "THK_HALF2X_V1": {
+      "role": "sampling",
+      "status": "LOCK"
+    },
+    "THK_GRID_05_V1": {
+      "role": "sampling",
+      "status": "ALT"
+    },
+    "THK_AB_MICRO_V1": {
+      "role": "sampling_local",
+      "status": "ALT"
+    },
+    "THK_SUB6_FULL_V1": {
+      "role": "pin_set",
+      "status": "LOCK"
+    },
+    "GEGE2_SOFT_FULL_V1": {
+      "role": "face_elev",
+      "status": "LOCK",
+      "via": "face-densify-soft-roi"
+    },
+    "THK_PLATE_ELEV_V1": {
+      "role": "face_elev",
+      "status": "ALT_PEEP"
+    },
+    "THK_GEN_PEEP_V1": {
+      "role": "face_elev",
+      "status": "BOARD_ONLY"
+    },
+    "THK_AB_IC_PASTE_V1": {
+      "role": "face_elev",
+      "status": "LOCK_STACK"
+    },
+    "THK_HALF2X_ODD_V1": {
+      "role": "sampling_complement",
+      "status": "LOCK",
+      "note": "f=1,3,5… complement of even HALF2X"
+    },
+    "THK_HALF2X_ODD_DENS_HOLD_V1": {
+      "film": "A_odd",
+      "claim": "TRUTH_HOLD",
+      "status": "LOCK"
+    },
+    "THK_HALF2X_ODD_DENS_LOCK_FLF_V1": {
+      "film": "B_odd",
+      "claim": "HERO_FLF_BASE",
+      "status": "LOCK",
+      "gold_asset": "7eb12ba4-9043-44e7-aa5d-7dc01d26e143"
+    },
+    "THK_HALF2X_ODD_SOFT_LOCK_FLF_V1": {
+      "film": "D_odd",
+      "claim": "HERO_FLF",
+      "status": "LOCK",
+      "gold_asset": "907e9c92-c428-4692-9033-70295ac37b3d"
+    },
+    "THK_PASS2_ON_FLF_V1": {
+      "role": "recurse",
+      "status": "LOCK",
+      "note": "second 跳環扣 on an FLF output; pins from video extract not A.mp4",
+      "gold_src": "7eb12ba4-9043-44e7-aa5d-7dc01d26e143",
+      "gold_hero": "a372c8c0-96c6-41de-abaa-79e994383872"
+    },
+    "THK_PASS2_SOFT_LOCK_FLF_V1": {
+      "film": "D_pass2",
+      "claim": "HERO_FLF",
+      "status": "LOCK",
+      "gold_asset": "a372c8c0-96c6-41de-abaa-79e994383872"
+    },
+    "THK_PASS3_ON_FLF_V1": {
+      "role": "recurse",
+      "status": "LOCK",
+      "depth": 3,
+      "gold_src": "a372c8c0-96c6-41de-abaa-79e994383872",
+      "gold_hero": "f329046d-9e53-4f41-9866-919631958230"
+    },
+    "THK_PASS3_SOFT_LOCK_FLF_V1": {
+      "film": "D_pass3",
+      "claim": "HERO_FLF",
+      "status": "LOCK",
+      "gold_asset": "f329046d-9e53-4f41-9866-919631958230"
+    },
+    "THK_SRC_PNG_EXACT_HOLD_V1": {
+      "film": "A_src_png",
+      "claim": "TRUTH_HOLD",
+      "status": "LOCK",
+      "note": "repo A_0..A_140 PNG pins exact, no soft ends"
+    },
+    "THK_SRC_PNG_LOCK_FLF_HARD_ENDS_V1": {
+      "film": "D_src_png_hard",
+      "claim": "HERO_FLF",
+      "status": "LOCK",
+      "note": "soft mids only; ffmpeg hard paste A_0/A_140 endpoints; only yuv residual",
+      "ends_policy": "HARD_PASTE_NO_SOFT"
+    },
+    "THK_SRC_PNG_V2_EXACT_ALL_PINS_HARD_V1": {
+      "status": "LOCK",
+      "claim": "HERO_FLF",
+      "policy": "no soft; hard paste 6 pin times incl A_0 A_140; hands preserved at A_55",
+      "raw_flf": "9c485d4a-1439-419a-8026-34d4110f9e56",
+      "hero_file": "src_png_thk_v2/out/FILM_V2_EXACT_LOCK_FLF_HARD_PINS.mp4"
+    },
+    "THK_MULTIWIN_DEOVERLAP_STITCH_V1": {
+      "status": "SUPERSEDED_BY_STITCH_LIAN",
+      "see": "THK_STITCH_LIAN_V1"
+    },
+    "THK_MEDIA_MORPH_FLF_30_V1": {
+      "film": "D-MEDIA30",
+      "claim": "HERO_FLF",
+      "status": "LOCK_OPEN_RING",
+      "source_axis": "MEDIA continuous only",
+      "gold_write": "01786",
+      "gold_asset": "b1ce1185-7d23-46ca-a3db-8a654285690d",
+      "K": 16,
+      "gap_out_s": 2,
+      "T_out_s": 30,
+      "note": "30s+ morph from MEDIA pins; NOT dens hub index",
+      "loop_policy": "for seamless loop use THK_MEDIA_MORPH_FLF_30_CLOSED_V1"
+    },
+    "THK_MEDIA10_SOFT_LOCK_FLF_V1": {
+      "film": "D-MEDIA10",
+      "claim": "HERO_FLF",
+      "status": "LOCK",
+      "gold_write": "01771",
+      "source_axis": "MEDIA continuous"
+    },
+    "THK_MEDIA10_ECC_SRC_LOCK_FLF_V1": {
+      "film": "B-MEDIA10",
+      "claim": "HERO_FLF_BASE",
+      "status": "LOCK",
+      "gold_write": "01771"
+    },
+    "THK_DENS_HOLD_STRETCH_V1": {
+      "claim": "TRUTH_HOLD",
+      "status": "LOCK_LADDER",
+      "note": "≥30s quality ladder; elev dens HOLD not morph; still not dens-as-MEDIA-axis"
+    },
+    "THK_STITCH_LIAN_V1": {
+      "film": "STITCH",
+      "claim": "JUNCTION_CONTINUOUS",
+      "status": "LOCK",
+      "zh": "STITCH連",
+      "write": "01853",
+      "preflight": "must read THK_STITCH_LIAN_V1.md before multi-win stitch",
+      "default_k": 0,
+      "max_k_deoverlap": 1,
+      "forbid": [
+        "blind_eps_seconds",
+        "scale_on_stitch"
+      ],
+      "replaces": "THK_MULTIWIN_DEOVERLAP_STITCH_V1",
+      "gold": "7b384076-3995-42e7-9d07-eebf273dd471"
+    },
+    "THK_MEDIA_MORPH_FLF_30_CLOSED_V1": {
+      "film": "D-MEDIA30-CLOSED",
+      "claim": "HERO_FLF_LOOP",
+      "status": "LOCK",
+      "zh": "闭针16PIN 30s MORPH",
+      "write": "01859",
+      "K": 16,
+      "closed": true,
+      "P_last": "=P0 bitexact at PREFLIGHT",
+      "windows": 3,
+      "eng_s": 10,
+      "stitch": "THK_STITCH_LIAN_V1 k=0",
+      "gold_asset": "4a65bef6-c095-421f-bfd0-e56efde924fb",
+      "gold_file": "DIAN30_THK_CLOSED16/MORPH30_CLOSED16.mp4",
+      "W0": "31fb4384-5b5e-40bb-b3b4-d99593e0587e",
+      "W1": "ddda0441-a22f-444a-9fca-dcbb82060fd4",
+      "W2": "514d9182-79f4-4569-8b26-0e4f8c05fdc2",
+      "source_axis": "a36748e6 continuous MEDIA hero",
+      "loop_seam_ncc": 0.996,
+      "note": "闭针预飞 P15:=P0 · 禁开环后事封口 · soft arrive only to W0 ENGINE first if needed",
+      "supersedes_partial": "open-tail retrofit 01855-01858"
+    },
+    "THK_CLOSED_PIN_PREFLIGHT_V1": {
+      "role": "preflight_pin_topology",
+      "status": "LOCK",
+      "zh": "闭针预飞",
+      "write": "01859",
+      "rule": "P_last := P0 bitexact BEFORE any FLF window",
+      "forbid": [
+        "open_ring_then_swap_tail",
+        "posthoc_append_close_as_primary",
+        "arrive_lock_as_primary_path"
+      ],
+      "formula": "1) set P0 2) P_last=P0 copy 3) sample mids 4) windows 5) STITCH连"
+    },
+    "THK_LOOP_ARRIVE_ENGINE_HEAD_V1": {
+      "role": "loop_seam_finish",
+      "status": "LOCK_AUX",
+      "zh": "循环缝到引擎头帧",
+      "write": "01859",
+      "target": "W0 first ENGINE frame (not pin JPG)",
+      "when": "W2 last vs W0 first ncc already high; optional soft 0.5-1.5s",
+      "forbid": "arrive to dens pin jpg only (breaks loop ncc)"
+    },
+    "THK_LT_AB_TRY_V1": {
+      "role": "lightning_flashwalk_diag",
+      "status": "LOCK_DIAG",
+      "zh": "闪电走位 A硬prompt vs B去电针",
+      "write": "01854",
+      "A": "5c7e2602 hard prompt on dens pins",
+      "B": "fcf0876e strip LT pins then FLF",
+      "verdict": "B lower autocorr · prefer strip pins for flash-walk",
+      "folder": "DIAN30_LT_AB_TRY"
+    }
+  },
+  "killed": [
+    "K01",
+    "K02",
+    "K03",
+    "K04",
+    "K05",
+    "K06",
+    "K07",
+    "K08",
+    "K09",
+    "K10",
+    "K11",
+    "K12",
+    "K13",
+    "K14"
+  ],
+  "depends": [
+    "GEGE_NO_EXTPLUS3_HYBRID_V1",
+    "PIPI_SRC_PASS_REVIEW"
+  ],
+  "version": "1.7.0",
+  "rails_extra": [
+    "THK-A7-S0..S5 multiwindow de-overlap stitch"
+  ],
+  "source_axis_lock": {
+    "MEDIA": "tmp/fei_A_0-140/MEDIA/fei_A_0-140.mp4",
+    "forbid_as_axis": "hub_gege_hybrid_ext3 dens INDEX",
+    "audit": "01771"
+  },
+  "void_writes": [
+    "01785",
+    "01856",
+    "01857"
+  ],
+  "DIAN30": "4a65bef6-c095-421f-bfd0-e56efde924fb",
+  "write_dian30": "01859",
+  "sole_active_reel": "电30-CLOSED16",
+  "preflight_order": [
+    "THK_STITCH_LIAN_V1.md  # if multi-win / 30s+ / N>6",
+    "CLOSED_PIN check: P_last==P0 if loop required",
+    "TIAO_HUAN_KOU_CANONICAL.md",
+    "TIAO_HUAN_KOU_CALL.md"
+  ],
+  "dian30_lineage": {
+    "01796_old": "5e529109-b73c-426e-84bc-d9ed1503e01d",
+    "01850_open": "MORPH30 open ring",
+    "01855_A_tail": "c12f0204-a73a-492f-87ee-310f777a209f",
+    "01858_plus_s": "6a59d2bf-c200-4204-ad3a-447677f192b4 VOID_as_primary",
+    "01859_closed": "4a65bef6-c095-421f-bfd0-e56efde924fb LOCK"
+  },
+  "memory_rails": [
+    "CLOSED_PIN: P_last:=P0 at PREFLIGHT before FLF",
+    "STITCH连: k*=0 default · forbid blind eps · forbid scale",
+    "LOOP: arrive target = W0 ENGINE first not pin jpg",
+    "LT flash-walk: strip baked bolts on pins (B) > prompt-only (A)",
+    "forbid HOLD as placement axis",
+    "forbid open-ring generate then swap tail as primary loop fix"
+  ]
+}
